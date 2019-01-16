@@ -12,9 +12,6 @@ export default class IndexPage extends React.Component {
       <Layout>
         <section className="section">
           <div className="container">
-            <div className="content">
-              <h1 className="has-text-weight-bold is-size-2">Latest Stories</h1>
-            </div>
             {posts
               .map(({ node: post }) => (
                 <div
@@ -26,7 +23,7 @@ export default class IndexPage extends React.Component {
                     <Link className="has-text-primary" to={post.fields.slug}>
                       {post.frontmatter.title}
                     </Link>
-                    <span> &bull; </span>
+                    <br/>
                     <small>{post.frontmatter.date}</small>
                   </p>
                   <p>
@@ -62,7 +59,7 @@ export const pageQuery = graphql`
     ) {
       edges {
         node {
-          excerpt(pruneLength: 400)
+          excerpt(pruneLength: 500)
           id
           fields {
             slug

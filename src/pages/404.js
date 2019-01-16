@@ -3,9 +3,12 @@ import Layout from '../components/Layout'
 
 const NotFoundPage = () => (
   <Layout>
-    <div>
-      <h1>NOT FOUND</h1>
-      <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
+      <br/><br/>
+    <div className="error-message">
+      <h1>NOT FOUND</h1><br/>
+      <p>Ooops! that doesn&#39;t exist...</p><br/>
+        <a href={"/"}>Click here to visit the home page
+        </a>
     </div>
   </Layout>
 )

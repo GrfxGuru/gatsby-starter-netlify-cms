@@ -1,7 +1,17 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import github from '../img/github-icon.svg'
-import logo from '../img/logo.svg'
+import twitter from '../img/twitter-icon.svg'
+import avatar from '../img/avatar.png'
+import linkedin from '../img/linkedin-icon.png'
+import headerimage from '../img/header-background.jpg'
+
+var headerStyle = {
+  backgroundImage: `url(${headerimage})`,
+  height: '100px',
+  width: '100%',
+  backgroundSize: 'cover'
+};
 
 const Navbar = class extends React.Component {
 
@@ -31,11 +41,14 @@ const Navbar = class extends React.Component {
  render() {
    return (
   
-  <nav className="navbar is-transparent" role="navigation" aria-label="main-navigation">
+  <nav className="navbar" style={headerStyle} role="navigation" aria-label="main-navigation">
     <div className="container">
       <div className="navbar-brand">
-        <Link to="/" className="navbar-item" title="Logo">
-          <img src={logo} alt="Kaldi" style={{ width: '88px' }} />
+        <Link to="/" className="navbar-item" title="Avatar">
+          <img src={avatar} alt="PeterWitham"/>
+          <div>
+            <h1 className='siteName'>PeterWitham</h1>
+          </div>
         </Link>
         {/* Hamburger menu */}
         <div className="navbar-burger burger" data-target="navMenu">
@@ -46,23 +59,34 @@ const Navbar = class extends React.Component {
       </div>
       <div id="navMenu" className="navbar-menu">
       <div className="navbar-start has-text-centered">
-        <Link className="navbar-item" to="/about">
-          About
-        </Link>
-        <Link className="navbar-item" to="/products">
-          Products
-        </Link>
         <Link className="navbar-item" to="/contact">
           Contact
-        </Link>
-        <Link className="navbar-item" to="/contact/examples">
-          Form Examples
         </Link>
       </div>
       <div className="navbar-end has-text-centered">
         <a
+            className="navbar-item"
+            href="https://www.linkedin.com/in/peterwitham"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+          <span className="icon">
+            <img src={linkedin} alt="LinkedIN" />
+          </span>
+        </a>
+        <a
+            className="navbar-item"
+            href="https://twitter.com/compileswift"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+          <span className="icon">
+            <img src={twitter} alt="Twitter" />
+          </span>
+        </a>
+        <a
           className="navbar-item"
-          href="https://github.com/AustinGreen/gatsby-netlify-cms-boilerplate"
+          href="https://github.com/GrfxGuru"
           target="_blank"
           rel="noopener noreferrer"
         >
