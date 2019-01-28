@@ -2,6 +2,9 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
 import Layout from '../components/Layout'
+import Img from 'gatsby-image'
+import Sidebar from '../components/sidebar'
+import Footer from '../components/footer'
 
 export default class IndexPage extends React.Component {
   render() {
@@ -12,6 +15,8 @@ export default class IndexPage extends React.Component {
       <Layout>
         <section className="section">
           <div className="container">
+            <Sidebar/>
+            <div className="column2">
             {posts
               .map(({ node: post }) => (
                 <div
@@ -27,7 +32,7 @@ export default class IndexPage extends React.Component {
                     <small>{post.frontmatter.date}</small>
                   </p>
                   <p>
-                    {post.excerpt}
+                    {post.frontmatter.blurb || post.excerpt}
                     <br />
                     <br />
                     <Link className="button is-small" to={post.fields.slug}>
@@ -36,8 +41,10 @@ export default class IndexPage extends React.Component {
                   </p>
                 </div>
               ))}
+            </div>
           </div>
         </section>
+        <Footer/>
       </Layout>
     )
   }
@@ -66,6 +73,7 @@ export const pageQuery = graphql`
           }
           frontmatter {
             title
+            blurb
             templateKey
             date(formatString: "MMMM DD, YYYY")
           }

@@ -2,6 +2,8 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import { Link, graphql } from 'gatsby'
 import Layout from '../components/Layout'
+import Sidebar from '../components/sidebar'
+import Footer from '../components/footer'
 
 class TagRoute extends React.Component {
   render() {
@@ -25,12 +27,13 @@ class TagRoute extends React.Component {
         <section className="section">
           <Helmet title={`${tag} | ${title}`} />
           <div className="container content">
+            <Sidebar/>
             <div className="columns">
               <div
                 className="column is-10 is-offset-1"
                 style={{ marginBottom: '6rem' }}
               >
-                <p className="title is-bold-light">{tagHeader}</p>
+                <h2 className="is-bold-light">{tagHeader}</h2>
                 <ul className="taglist is-size-4">{postLinks}</ul>
                 <p>
                   <Link to="/tags/">Browse all tags</Link>
@@ -39,6 +42,7 @@ class TagRoute extends React.Component {
             </div>
           </div>
         </section>
+        <Footer/>
       </Layout>
     )
   }

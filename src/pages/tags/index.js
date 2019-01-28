@@ -3,6 +3,8 @@ import { kebabCase } from 'lodash'
 import Helmet from 'react-helmet'
 import { Link, graphql } from 'gatsby'
 import Layout from '../../components/Layout'
+import Sidebar from '../../components/sidebar'
+import Footer from '../../components/footer'
 
 const TagsPage = ({
   data: { allMarkdownRemark: { group }, site: { siteMetadata: { title } } },
@@ -11,12 +13,13 @@ const TagsPage = ({
     <section className="section">
       <Helmet title={`Tags | ${title}`} />
       <div className="container content">
+        <Sidebar/>
         <div className="columns">
           <div
             className="column is-10 is-offset-1"
             style={{ marginBottom: '6rem' }}
           >
-            <h1 className="title is-size-2 is-bold-light">Tags</h1>
+            <h2 className="is-bold-light">Tags</h2>
             <ul className="taglist">
               {group.map(tag => (
                 <li key={tag.fieldValue}>
@@ -30,6 +33,7 @@ const TagsPage = ({
         </div>
       </div>
     </section>
+    <Footer/>
   </Layout>
 )
 
