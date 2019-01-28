@@ -42,6 +42,16 @@ module.exports = {
             }
           },
           {
+            resolve: `gatsby-remark-prettier`,
+            options: {
+              // Look for local .prettierrc file.
+              // The same as `prettier.resolveConfig(process.cwd())`
+              usePrettierrc: true,
+              // Overwrite prettier options, check out https://prettier.io/docs/en/options.html
+              prettierOptions: {}
+            },
+          },
+          {
             resolve: `gatsby-remark-prismjs`,
             options: {
               classPrefix: "language-",
