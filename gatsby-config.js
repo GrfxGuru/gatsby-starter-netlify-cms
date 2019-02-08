@@ -2,6 +2,7 @@ module.exports = {
   siteMetadata: {
     title: 'Peter Witham',
     description: 'Developer, Designer, Media Producer',
+    siteUrl: `https://peterwitham.us`,
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -60,6 +61,9 @@ module.exports = {
               showLineNumbers: false,
               noInlineHighlight: false,
             },
+          },
+          {
+            resolve: `gatsby-plugin-sitemap`,
           },
         ],
       },
