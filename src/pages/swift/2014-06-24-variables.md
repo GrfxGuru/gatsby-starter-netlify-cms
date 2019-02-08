@@ -1,6 +1,5 @@
 ---
 templateKey: blog-post
-link: https://peterwitham.com/swift-archives/basics/variables/
 slug: /swift-archives/basics/variables/
 author: Peter Witham
 tags: ["Swift"]
