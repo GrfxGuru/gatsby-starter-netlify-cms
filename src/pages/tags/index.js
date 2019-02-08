@@ -16,7 +16,7 @@ const TagsPage = ({
         <Sidebar/>
         <div className="columns">
           <div
-            className="column is-10 is-offset-1"
+            className="column taglistPage"
             style={{ marginBottom: '6rem' }}
           >
             <h2 className="is-bold-light">Tags</h2>

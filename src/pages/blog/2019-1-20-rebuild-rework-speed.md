@@ -2,9 +2,9 @@
 templateKey: blog-post
 title: Rebuild, Rework, Speed+
 date: 2019-1-16T12:07:00
+slug: /blog/rework-rebuild
 description: Get ready, something new is on the way just for you.
-tags:
-  - MicroBlog
+tags: ["MicroBlog"]
 ---
 
 Welcome to the future faster, leaner, meaner home of my site.
