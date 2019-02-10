@@ -44,7 +44,7 @@ const IndexPage = ({ pageContext }) => {
                                                 {node.frontmatter.blurb || node.excerpt}
                                                 <br />
                                                 <br />
-                                                <Link className="button is-small" to={node.fields.slug}>
+                                                <Link className="button is-small" to={node.frontmatter.slug}>
                                                     Keep Reading →
                                                 </Link>
                                             </p>
