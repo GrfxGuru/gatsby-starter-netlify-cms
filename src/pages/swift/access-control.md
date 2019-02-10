@@ -1,5 +1,5 @@
 ---
-templateKey: blog-post
+templateKey: blog-post-swift
 author: Peter Witham
 slug: /swift-archives/basics/access-control
 tags: ["Swift"]

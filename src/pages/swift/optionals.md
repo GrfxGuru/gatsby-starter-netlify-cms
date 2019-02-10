@@ -1,5 +1,5 @@
 ---
-templateKey: blog-post
+templateKey: blog-post-swift
 slug: /swift-archives/intermediate/optionals/
 author: Peter Witham
 tags: ["Swift"]
