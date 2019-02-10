@@ -2,7 +2,7 @@
 templateKey: blog-post
 slug: /swift-archives/basics/bug-reporting/
 author: Peter Witham
-tags: ["Development Notes"]
+tags: ["Development Notes", "Swift"]
 title: A Call to Action - Report Bugs
 date: 2014-09-11T23:21:35
 blurb: We all encounter bugs in the software we use not just the software we create. As a responsible developer, I ask that you report bugs to those that make our tools. Here are a few ways you can help.
