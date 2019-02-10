@@ -94,5 +94,6 @@ As we work through the chain of if statements, if at any point one of them retur
 So to wrap up this overview of Optionals, use them in cases where you think you might get a missing value and want to ensure you have a ‘way out’ that does not involve a crash or unexpected behavior. It is also another good way to practice _safe_ coding in Swift.
 
 There is a LOT you can do with this power, here is a [link to chaining Optionals](https://developer.apple.com/library/prerelease/mac/documentation/Swift/Conceptual/Swift_Programming_Language/OptionalChaining.html) for further reading if you are interested.
+
 ---
 
