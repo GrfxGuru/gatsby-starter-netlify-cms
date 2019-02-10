@@ -63,6 +63,9 @@ module.exports = {
             },
           },
           {
+            resolve: `gatsby-remark-responsive-iframe`,
+          },
+          {
             resolve: `gatsby-plugin-sitemap`,
           },
         ],
