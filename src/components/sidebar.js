@@ -7,8 +7,8 @@ const Sidebar = () => (
         <Aboutbox/>
         <h2 class="sidebarWidget">Navigation</h2>
         <a href={'/tags/swift'}>Swift Programming</a><br/>
+        <a href={'./tags/podcast'}>Listen to Podcasts</a><br/>
             {/*<a href={'./tags/jamstack'}>Learn JAMStack</a><br/>
-        <a href={'./tags/podcasts'}>Listen to Podcasts</a><br/>
         <a href={'./tags/videos'}>Watch Videos</a><br/>*/}
         <br/>
         <h2 class="sidebarWidget">Social</h2>
