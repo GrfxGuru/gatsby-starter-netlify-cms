@@ -7,6 +7,7 @@ import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
 import Sidebar from '../components/sidebar'
 import Footer from '../components/footer'
+import PodcastLinks from '../components/podcast_tlc_links'
 
 export const BlogPostTemplate = ({
                                    content,
@@ -31,6 +32,7 @@ export const BlogPostTemplate = ({
                 </h1>
                 <p>{description}</p><br/>
                 <PostContent content={content} />
+                  <PodcastLinks/>
                 {tags && tags.length ? (
                     <div style={{ marginTop: `4rem` }}>
                       <h4>Tags</h4>
