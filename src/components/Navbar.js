@@ -4,10 +4,9 @@ import github from '../img/github-icon.svg'
 import twitter from '../img/twitter-icon.svg'
 import avatar from '../img/avatar.png'
 import linkedin from '../img/linkedin-icon.png'
-import headerimage from '../img/header-background.jpg'
 
 var headerStyle = {
-  backgroundImage: `url(${headerimage})`,
+  backgroundColor: 'rgb(27, 63, 124)',
   height: '100px',
   width: '100%',
   backgroundSize: 'cover'
