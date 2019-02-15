@@ -5,6 +5,7 @@ import Layout from '../components/Layout'
 import Img from 'gatsby-image'
 import Sidebar from '../components/sidebar'
 import Footer from '../components/footer'
+import Card from "../components/Card";
 
 const NavLink = props => {
     if (!props.test) {
@@ -25,6 +26,16 @@ const IndexPage = ({ pageContext }) => {
                     <div className="container">
                         <Sidebar/>
                         <div className="column2">
+                            <div className="cardSet">
+                                <Card title={"Swift"} text={"Learn about the Swift programming language."}
+                                      cardLink={"/tags/swift/"}/>
+                                <Card title={"Videos"} text={"Lots of tutorials covering many topics."}
+                                      cardLink={"/tags/videos/"}/>
+                                <Card title={"Podcasts"} text={"Podcast on all things creative to inspire."}
+                                      cardLink={"/tags/podcast/"}/>
+                            </div>
+                            <div className="clearBoth"/>
+                            <div className="cardSetSpacer"/>
                             <div>
                                 {group
                                     .map(({ node }) => (
