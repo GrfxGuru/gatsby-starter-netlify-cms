@@ -63,7 +63,7 @@ const IndexPage = ({ pageContext }) => {
                                     ))}
                                     <div className="pageNavigation">
                                         <span className="previousLink">
-                                            <NavLink test={first} url={previousUrl} text="Go to Previous Page" />
+                                            <NavLink test={first} url={previousUrl} text="Go to Previous Page"/>
                                         </span>
                                         <span className="nextLink">
                                             <NavLink test={last} url={nextUrl} text="Go to Next Page" />
