@@ -5,7 +5,9 @@
   "author": "Austin Green",
   "dependencies": {
     "bulma": "^0.7.4",
+    "eslint-config-universe": "^1.0.7",
     "eslint-plugin-graphql": "^3.0.3",
+    "eslint-plugin-react": "^7.12.4",
     "express-graphql": "^0.7.1",
     "gatsby": "^2.1.4",
     "gatsby-cli": "^2.4.9",
@@ -63,5 +65,8 @@
     "prettier": "^1.16.4",
     "react-kawaii": "^0.11.0",
     "rimraf": "^2.6.2"
+  },
+  "eslintConfig": {
+    "extends": "universe"
   }
 }

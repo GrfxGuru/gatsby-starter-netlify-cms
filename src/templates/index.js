@@ -34,8 +34,6 @@ const IndexPage = ({ pageContext }) => {
                                 <Card title={"Podcasts"} text={"Podcast on all things creative to inspire."}
                                       cardLink={"/tags/podcast/"}/>
                             </div>
-                            <div className="clearBoth"/>
-                            <div className="cardSetSpacer"/>
                             <div>
                                 {group
                                     .map(({ node }) => (

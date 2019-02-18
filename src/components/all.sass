@@ -8,269 +8,47 @@ $primary: $pw-red
 $primary-invert: $pw-red-invert
 $body-color: #333
 
+@import "../sass/header"
+@import "../sass/post-types"
+@import "../sass/sidebar"
+@import "../sass/syntax-highlighting"
+@import "../sass/helpers"
+@import "../sass/navigation"
+@import "../sass/cards"
+@import "../sass/taglist"
+@import "../sass/footer"
+
 .siteName
   font-size: 2em
   font-weight: bolder
   color: $primary-invert
   margin-left: 10px
 
-.error-message
-  text-align: center
-
-// -------------------------------- Nav Bar
-
-.navbar .navbar-menu
-  box-shadow: none !important
-
-.navbar-start
-  font-size: 1.3em
-  margin-left: 50px
-  font-weight: bold
-
-#navMenu a
-  color: white !important
-
-#navMenu a:hover
-  background-color: transparent !important
-  color: yellow !important
-
-.navbar-burger
-  color: white !important
-
-.navbar-menu
-  background-color: rgb(27, 63, 124) !important
-
-// -------------------------------- Links
-
-a, a:visited
-  color: #f20000 !important
-
-a:hover
-  color: #570F0F !important
-
 .content
   border: none !important
   font-size: 1.1em
-  padding: 0px 0px 80px 60px !important
+  padding: 0 0 80px 60px !important
 
 .content .has-text-primary
   font-weight: bold
   font-size: 1.7em
 
-.content .taglist
-  list-style: none
-  margin-bottom: 0
-  margin-left: 0
-  margin-right: 1.5rem
-  margin-top: 1.5rem
-  display: flex
-  flex-wrap: wrap
-  justify-content: left
-  align-items: center
-  li
-    padding: 0 2rem 1rem 0
-    margin-bottom: 1.5rem
-    margin-top: 0
-
-.tagListIndexPage
-  line-height: 3
-
-.footer
-  background-color: rgba(0, 13, 51, 0.89) !important
-  width: 100%
-  color: white
-  text-align: center
-  clear: both
-
-// -------------------------------- Post Types
-
-.swiftPostBackground
-  background-image: url("../img/swift_logo.svg")
-  background-size: 40px
-  background-repeat: no-repeat
-  background-position: 10px 0px
-
-.podcastTCLPostBackground
-  background-image: url("../img/podcast_icon_tlc.svg")
-  background-size: 40px
-  background-repeat: no-repeat
-  background-position: 10px 0px
-
-// --------------------------------- Sidebar
-
-.sidebar
-  min-width: 250px
-  width: 260px
-
-.sidebarabout
-  margin-bottom: 50px
-
-.sidebar .sidebarabout p
-    //font-size: 1em
-
-.sidebar h2
-  font-weight: bold
-  font-size: 1.4em
-  margin-bottom: 10px
-  display: block
-
-.sidebar > div > h2
-  padding-bottom: 10px
-  font-weight: bold
-
-.sidebar > div > p
-  font-weight: normal
-  //font-size: 0.7em
-
-.sidebar > a
-  line-height: 2em
-
-.taglist h2
-  font-size: 1.1em !important
-
-.sidebarWidget
-  background-color: #ffe6b7
-  border-radius: 10px
-  padding: 5px 0px 10px 10px
-
-.buyMeACoffee
-  background-color: #e2ead5
-  text-align: center
-
-.sidebar img
-  vertical-align: text-bottom
-
-  h2
-    padding-bottom: 0px
-    margin-bottom: 0px
-
-// --------------------------------- Helper Classes
-.full-width-image-container
-  width: 100vw
-  height: 400px
-  position: relative
-  left: 50%
-  right: 50%
-  margin: 5em -50vw
-  background-size: cover
-  background-position: bottom
-  display: flex
-  justify-content: center
-  align-items: center
-
-.margin-top-0
-  margin-top: 0 !important
-
-.container
-  display: flex
-
-// --------------------------------- Syntax Highlighting
-.gatsby-highlight-code-line
-  background-color: #feb
-  display: block
-  margin-right: -1em
-  margin-left: -1em
-  padding-right: 1em
-  padding-left: 0.75em
-  border-left: 0.25em solid #f99
-
-.gatsby-highlight
-  background-color: #fdf6e3
-  border-radius: 0.3em
-  margin: 0.5em 0
-  padding: 1em
-  overflow: auto
-
-
-.gatsby-highlight pre[class*="language-"]
-  background-color: transparent
-  margin: 0
-  padding: 0
-  overflow: initial
-  float: left
-  /* 1 */
-  min-width: 100%
-/* 2 */
-
-// --------------------------------- Tag List
-.taglist
-  display: block !important
-
-.taglist li
-  margin: 0px !important
-
-.taglist > li > a > p
-  font-size: 1em !important
-
-.tagListOnPosts
-  background-color: rgb(222, 237, 255)
-  padding: 5px 10px 5px 10px
-  margin-right: 10px
-  border-radius: 7px
-
-.taglistPage
-  margin-left: 20px !important
-
-// --------------------------------- Page Navigation
-.pageNavigation
-  font-weight: bold
-  font-size: 1.1em
-  margin-left: 60px
-  color: transparent
-
-.previousLink
-  float: left
-
-.nextLink
-  float: right
-
-.clearPageNavigation
-  clear: both
-
 // --------------------------------- Tables
 .podcastPlayersLinkTable
+  width: 100%
+  margin: 0 auto
   background-color: rgba(255, 255, 255, 1)
   padding: 20px 20px 10px 20px
   border-radius: 20px
   border-width: 2px
   border-color: rgb(166, 166, 166)
   border-style: solid
-  width: 60%
-  margin: 0px auto
 
-// --------------------------------- Cards
-
-.cardSet
-  margin-left: 30px
-
-.singleCard
-  background-color: rgb(255, 195, 112)
-  width: 250px
-  height: 150px
-  margin: 10px
-  border-radius: 20px
-  padding: 10px 50px 0px 15px
-  float: left
-  border-style: solid
-  border-width: 2px
-  border-color: #c49704
-
-  h2
-    color: rgb(85, 85, 85)
-    font-weight: 600
-    font-size: 22px
-    text-transform: uppercase
-
-  p
-    color: black
-    font-weight: 400
-    font-size: 18px
-    line-height: 1.2
-
-.clearBoth
-  clear: both
-
-.cardSetSpacer
-  height: 50px
+  .podcastPlayerIconList
+    margin-top: 30px
+    width: 100%
+    display: grid
+    grid-template-columns: repeat(10, auto)
+    justify-items: center
 
 @import "~bulma"
