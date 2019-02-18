@@ -31,7 +31,8 @@ let filePath = NSBundle.mainBundle().resourcePath!
 _NSBundle.mainBundle()_ gives us the bundle object that contains our application executable. _resourcePath!_ gives us the full pathname to the bundle's subdirectories containing our resources which includes our text file. Now we try and load the contents of the file in to a constant.
 
 ``` Swift
-let textContent = try! String(contentsOfFile: filePath + "/thetext.txt", encoding: NSUTF8StringEncoding)
+let textContent = try! String(contentsOfFile: filePath + "/thetext.txt",
+                                encoding: NSUTF8StringEncoding)
 ```
 
 Since there is the possibility that our file does not exist or something else could go wrong we put the statement in a _try_ block. We concatenate the path and add what we know to be the file name, note the '/' in front of the file name. Finally we assign the text content to our text field.
@@ -47,7 +48,8 @@ override func viewDidLoad() {
     super.viewDidLoad()
     // Do any additional setup after loading the view, typically from a nib.
     let filePath = NSBundle.mainBundle().resourcePath!
-    let textContent = try! String(contentsOfFile: filePath + "/thetext.txt", encoding: NSUTF8StringEncoding)
+    let textContent = try! String(contentsOfFile: filePath + "/thetext.txt",
+                                    encoding: NSUTF8StringEncoding)
     displayText.text = textContent
 }
 ```
