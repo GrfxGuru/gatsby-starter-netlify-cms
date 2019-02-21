@@ -26,26 +26,28 @@ const IndexPage = ({ pageContext }) => {
     <Layout>
       <section className='section'>
         <div className='container'>
-          <Sidebar/>
           <div className='column2'>
-            <div className='cardSet'>
-              <Card
-                title={"Swift"}
-                cardDesign={"singleCard singleCardSwift"}
-                text={"Learn about the Swift programming language."}
-                cardLink={"/tags/swift/"} />
-              <Card
-                title={"Videos"}
-                cardDesign={"singleCard singleCardPodcast"}
-                text={"Lots of tutorials covering many topics."}
-                cardLink={"/tags/videos/"} />
-              <Card
-                title={"Podcasts"}
-                cardDesign={"singleCard singleCardVideo"}
-                text={"Podcast on all things creative to inspire."}
-                cardLink={"/tags/podcast/"} />
+            <div className='cardSetContainer'>
+              <div className='cardSet'>
+                <Card
+                  title={"Swift"}
+                  cardDesign={"singleCard singleCardSwift"}
+                  text={"Learn about the Swift programming language."}
+                  cardLink={"/tags/swift/"} />
+                <Card
+                  title={"Videos"}
+                  cardDesign={"singleCard singleCardPodcast"}
+                  text={"Lots of tutorials covering many topics."}
+                  cardLink={"/tags/videos/"} />
+                <Card
+                  title={"Podcasts"}
+                  cardDesign={"singleCard singleCardVideo"}
+                  text={"Podcast on all things creative to inspire."}
+                  cardLink={"/tags/podcast/"} />
+              </div>
             </div>
             <div>
+              <h1 className='indexBlogPostTitle'>Blog Posts</h1>
               {group
                  .map(({ node }) => (
                    <div className='content' style={{ border: '1px solid #333', padding: '2em 4em' }} key={node.id}>
