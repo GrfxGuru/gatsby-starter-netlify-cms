@@ -24,6 +24,7 @@ const IndexPage = ({ pageContext }) => {
 
   return (
     <Layout>
+      <div className="pwArrowBackground"/>
       <section className='section'>
         <div className='container'>
           <div className='column2'>

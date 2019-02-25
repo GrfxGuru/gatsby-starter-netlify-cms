@@ -6,7 +6,7 @@ import avatar from '../img/avatar.png'
 import linkedin from '../img/linkedin-icon.png'
 
 var headerStyle = {
-  backgroundColor: 'rgb(27, 63, 124)',
+  backgroundColor: 'rgb(116, 0, 2)',
   height: '100px',
   width: '100%',
   backgroundSize: 'cover'
@@ -19,28 +19,28 @@ const Navbar = class extends React.Component {
    const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
     // Check if there are any navbar burgers
    if ($navbarBurgers.length > 0) {
- 
+
      // Add a click event on each of them
      $navbarBurgers.forEach( el => {
        el.addEventListener('click', () => {
- 
+
          // Get the target from the "data-target" attribute
          const target = el.dataset.target;
          const $target = document.getElementById(target);
- 
+
          // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
          el.classList.toggle('is-active');
          $target.classList.toggle('is-active');
- 
+
        });
      });
    }
  }
- 
- render() {
+
+  render() {
    return (
-  
-  <nav className="navbar" style={headerStyle} role="navigation" aria-label="main-navigation">
+
+       <nav className="navbar" style={headerStyle} role="navigation" aria-label="main-navigation">
     <div className="container">
       <div className="navbar-brand">
         <Link to="/" className="navbar-item" title="Avatar">

@@ -8,8 +8,6 @@ date: 2016-07-26T17:28:04
 blurb: Did you know arguments in Swift functions can have more than one name? Which is great for making functions self-documenting with sensible naming conventions. Open a Swift Playground and try this.
 ---
 
-# Changing Function Argument Names Magically
-
 Did you know arguments in Swift functions can have more than one name? Which is great for making functions self-documenting with sensible naming conventions. Open a Swift Playground and try this.
 
 ### The Problem
