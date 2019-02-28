@@ -10,8 +10,8 @@ blurb: There are a few reasons I think working on muiltiple creative projects at
 
 I always have multiple projects in various states of progression. I have always felt this is a good thing for a few reasons.
 
-– It allows me to practice multiple skills.
-– It gives my brain a rest from hard problems on any one project.
-– Multiple projects that require different approaches and techniques helps me expand my skill set.
+- It allows me to practice multiple skills.
+- It gives my brain a rest from hard problems on any one project.
+- Multiple projects that require different approaches and techniques helps me expand my skill set.
 
-<iframe src="https://anchor.fm/peter-witham/embed/episodes/Minute-of-Creativity-Multiple-projects-are-a-good-thing--Heres-why-e3b9hg" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://anchor.fm/peter-witham/embed/episodes/Minute-of-Creativity-Multiple-projects-are-a-good-thing--Heres-why-e3b9hg" height="102" width="400" frameborder="0" scrolling="no"></iframe>
