@@ -24,12 +24,17 @@ const IndexPage = ({ pageContext }) => {
 
   return (
     <Layout>
-      <div className="pwArrowBackground"/>
+      <div className='pwArrowBackground' />
       <section className='section'>
         <div className='container'>
           <div className='column2'>
             <div className='cardSetContainer'>
               <div className='cardSet'>
+                <Card
+                  title={"JAM Stack"}
+                  cardDesign={"singleCard singleCardJAMstack"}
+                  text={"JavaScript API and Markdown. Learn more..."}
+                  cardLink={"/tags/jam-stack/"} />
                 <Card
                   title={"Swift"}
                   cardDesign={"singleCard singleCardSwift"}
@@ -45,6 +50,16 @@ const IndexPage = ({ pageContext }) => {
                   cardDesign={"singleCard singleCardVideo"}
                   text={"Podcast on all things creative to inspire."}
                   cardLink={"/tags/podcast/"} />
+                <Card
+                  title={"Contact"}
+                  cardDesign={"singleCard singleCardContact"}
+                  text={"Let's talk, I like people who say hello."}
+                  cardLink={"/contact/"} />
+                <Card
+                  title={"Photography"}
+                  cardDesign={"singleCard singleCardPhotography"}
+                  text={"Visit my Photography Portfolio"}
+                  cardLink={"https://www.grfxmedia.com"} />
               </div>
             </div>
             <div>
