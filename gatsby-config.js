@@ -22,6 +22,9 @@ module.exports = {
         // Plugins configs
         plugins: [
           {
+            resolve: `gatsby-plugin-feed`,
+          },
+          {
             resolve: 'gatsby-remark-relative-images',
             options: {
               name: 'uploads',
