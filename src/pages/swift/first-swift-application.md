@@ -2,7 +2,7 @@
 templateKey: blog-post-swift
 slug: /swift-archives/basics/first-swift-ios-application/
 author: Peter Witham
-tags: [Swift"]
+tags: ["Swift"]
 title: Your First Swift iOS Application
 date: 2014-10-14T02:29:53
 blurb: Start learning Swift today by creating your first iOS Swift based application. Follow along with this simple getting started tutorial.
