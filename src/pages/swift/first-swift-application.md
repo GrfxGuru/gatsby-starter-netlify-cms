@@ -48,4 +48,50 @@ Now double click on the label for the button ‘Button’, you can edit the butt
 
 Let’s make our first App do something, so how about adding a text entry field, go to the object library and search for ‘text’, you should see a text field appear on the list, just like before drag it to the storyboard underneath our button. If you get close enough to the button you will see the Apple guidelines appear to indicate that you should get no closer, that should be fine. Currently our text entry field has nothing in it and that is also just fine since we will type something when running the application. You can view a video of this below, just click the link to watch and then your browser back icon to return to this post.
 
-[Click here to play video: Xcode 6 - Drag Text Field to Storyboard](https://peterwitham.com/wp-content/uploads/2014/10/Xcode-6-Drag-Text-Field-to-Storyboard.mov)
+![Click here to play video: Xcode 6 - Drag Text Field to Storyboard](https://peterwitham.com/wp-content/uploads/2014/10/Xcode-6-Drag-Text-Field-to-Storyboard.mov)
+
+OK time to get some code on the screen, on the top right of the interface you will see an icon for what is referred to as the ‘assistant editor’, this is a secondary window that compliments whatever we have in the main editor (currently it’s the storyboard). I have highlighted the icon in the screen shot, click on it and you should see a new window appear to the right of the storyboard with the ‘ViewController.swift’ file in it, this file is the code that controls our view. Xcode is smart enough to figure out that we probably wanted that file to work on whilst working with the storyboard, good for you Xcode! Do not panic when you see all that code, we are about to tackle it and in reality most of what is there you can ignore anyway as we need it and Xcode did the hard work for us.
+
+![Xcode 6 -Storyboard with Assistant Editor](https://peterwitham.com/wp-content/uploads/2014/10/Xcode-6-Storyboard-with-Assistant-Editor.png)
+
+TIP: If you are on a machine that has a touchpad / trackpad then you can use two fingers to pan around the storyboard window if you can no longer see the button and text field we added. If you are using a mouse you can always just right click on the storyboard and zoom out if you need to.
+
+Now to get to some code! One of the great things about Xcode is that it does everything it can to help us, so even without knowing what the various parts of a method are to work with button events we can easily create them. All we need to do is right click on the button and drag the blue line over to a blank space in our assistant editor inside the curly braces for _class { }_ and release the mouse to be presented with a simple set of options. Xcode will try and help us by offering the most obvious choices. Since this is a button we are working with we need to create what is called an _IBAction_ which is a method called when we click or touch the button in our application. At first the connection will show a type called _Outlet_ that is not what we want, click on it and change it to _Action_. Now we need to provide a name for this _IBOutlet_ I called my one ‘buttonClick’. When you have provided the name just click _connect_ and the code will appear for you, simple right! Watch the very short video below to see this in action. Again click the link to watch the video and then use your browser back icon/button to return to this post and continue.
+
+![Click here to play video: Xcode - Right click drag button to controller.](https://peterwitham.com/wp-content/uploads/2014/10/Xcode-Right-click-drag-button-to-controller..mov)
+
+Now we do the same thing for the text field, right click and drag to the assistant editor, this time we want a type Outlet. Give it a name again, I used ‘myTextField’. The video below shows this in action. An IBOutlet gives our code a way to reference our text field on the screen.
+
+![Click here to play video: Xcode - Connect textfield to ViewController](https://peterwitham.com/wp-content/uploads/2014/10/Xcode-6-Drag-Text-Field-to-Storyboard.mov)
+
+Now a little memory test for you, create another text field below the first and then create a IBOutlet for it, I called my one ‘myTextField2’. Refer to the steps above if you need a reminder.
+
+![Xcode 6 - Storyboard with button and two textfields](https://peterwitham.com/wp-content/uploads/2014/10/Xcode-6-Storyboard-with-button-and-two-textfields.png)
+
+Now we will go back to our code created for the button, inside the func called buttonClick add the following just before the closing curly brace.
+
+``` swift
+myTextField2.text = myTextField.text
+```
+
+![Xcode 6 - Assign textfield to textfield 2](https://peterwitham.com/wp-content/uploads/2014/10/Xcode-6-Assign-textfield-to-textfield-2.png)
+
+So what happens here is pretty straight forward, whatever text you enter in the first text field myTextField and then click or touch on the button will be copied into the second text field myTextField2. We access the text property of the fields to both get and set the text value. It’s not amazing, but it’s your first line of Swift in an iOS application, congratulations!
+
+Now let’s run this baby and see what happens, time to compile!
+
+In the top bar of the Xcode window on the left hand side you will see a play button followed by a stop button and then the name of our application and ‘>’ with either a device or simulator type after it. Click on it and select iPhone 6 from the iOS Simulator list. This sets the simulator to that new phone the World is going crazy about, if you wish and are familiar with using a device for testing rather than the simulator then feel free.
+
+![Xcode 6 - Select Simulator](https://peterwitham.com/wp-content/uploads/2014/10/Xcode-6-Select-Simulator.png)
+
+Now click the play button on the far left to fire up the simulator and load your new application, this can some times take a while so be patient. Depending on your screen resolution you may find the simulator window rather large or small. Eventually you should see our application appear, click on the first text field and use the keyboard to type something in. Click or touch our button and it should appear in the second text field, well done if it worked and if not refer back to our steps above to see if you missed anything. You can either close the simulator or click on the stop button back in Xcode to dismiss the simulator and return to your code.
+
+![iOS Simulator - iPhone 6 - Hello](https://peterwitham.com/wp-content/uploads/2014/10/iOS-Simulator-iPhone-6-Hello.png)
+
+![iOS Simulator - iPhone 6 - iPhone 6 - Two textfield](https://peterwitham.com/wp-content/uploads/2014/10/iOS-Simulator-iPhone-6-iPhone-6-Two-textfield.png)
+
+At the moment I’m betting the text fields and buttons are poorly placed on the screen, not to worry we will get to all that in our next tutorial when we using something called constraints and auto layout to make the layout fit any size window and orientation we throw at our application. I am also thinking you are wondering why that pesky keyboard will not go away when you click return, we will also get to that in the future!
+
+Congratulations you have reached the end and can now create a new project and write simple Swift code that compiles and runs as an iOS application! Save this project and we will resume with solving those layout issues next time around.
+
+I hope this helped you, there is a lot to cover for a simple thing but you have learned all you need to know to create an empty shell that is the first step to every application anyone makes.
