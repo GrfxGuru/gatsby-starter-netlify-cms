@@ -2,7 +2,7 @@
 templateKey: blog-post
 link: https://peterwitham.com/development-notes/printed-technical-books-still-relevant/
 author: Peter Witham
-tags: ["Developer Notes"]
+tags: ["Development Notes"]
 title: Are printed technical books still relevant?
 slug: /development-notes/printed-technical-books-still-relevant/
 date: 2014-09-16T20:09:20

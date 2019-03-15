@@ -2,7 +2,7 @@
 templateKey: blog-post
 link: /microblog/i-will-not-forget-this-time/
 author: Peter Witham
-tags: ["Developer Notes"]
+tags: ["Development Notes"]
 title: I Will Not Forget This Time
 slug: /microblog/i-will-not-forget-this-time/
 date: 2019-01-04T00:26:28

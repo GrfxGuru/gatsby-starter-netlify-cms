@@ -2,7 +2,7 @@
 templateKey: blog-post
 link: /development-notes/static-site-generators-are-cool/
 author: Peter Witham
-tags: ["Developer Notes", "JAMStack", "Web Dev"]
+tags: ["Development Notes", "JAMStack", "Web Dev"]
 title: Static Site Generators are Cool
 slug: /development-notes/static-site-generators-are-cool/
 date: 2019-01-14T12:40:29
