@@ -6,6 +6,7 @@ import Img from 'gatsby-image'
 import Sidebar from '../components/sidebar'
 import Footer from '../components/footer'
 import Card from '../components/Card'
+import Search from '../components/Search'
 
 const NavLink = props => {
   if (!props.test) {
@@ -61,6 +62,7 @@ const IndexPage = ({ pageContext }) => {
                   text={"Visit my Photography Portfolio"}
                   cardLink={"https://www.grfxmedia.com"} />
               </div>
+              <Search classNames={"searchBox"}/>
             </div>
             <div>
               <h1 className='indexBlogPostTitle'>Blog Posts</h1>
