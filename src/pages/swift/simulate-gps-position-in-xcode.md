@@ -8,8 +8,6 @@ date: 2017-09-07T00:59:36
 blurb: How to Add Custom GPS Locations in Xcode. Xcode has some built in GPS positions you can simulate, but you can also add any location of your choice. Here's how.
 ---
 
-# Simulate GPS Position in Xcode for iOS Application Development
-
 There are times that you will want to simulate a position for testing GPS in an application you are working on, apart from getting on a plane or grabbing the car keys there is another way to do it, and it’s quicker! In Xcode you can either select a location or, as I will demonstrate, you can add a position using a _gpx_ file.
 
 To do this, you will need an active session, so go ahead and run your application in Xcode and open up the debugging window ( _Shift + CMD + Y_ ) or _View > Debug Area > Show Debug Area_. Do you notice the Arrow on the toolbar for the Window that looks just like the GPS one on an iPhone? Click on it and a menu will appear.
