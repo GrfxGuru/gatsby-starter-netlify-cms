@@ -1,5 +1,5 @@
 ---
-templateKey: blog-post
+templateKey: blog-post-swift
 slug: /development-notes/xcode-10-dark-and-light-mode-development-features/
 author: Peter Witham
 tags: ["Development Notes"]
