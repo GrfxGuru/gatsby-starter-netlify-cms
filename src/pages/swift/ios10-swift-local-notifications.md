@@ -8,8 +8,6 @@ date: 2017-03-10T02:38:53
 blurb: A simple example showing how to create and trigger a local app notification using Swift 3.
 ---
 
-# How To Create iOS 10 Local Notifications Using Swift 3
-
 ## The Problem
 
 Your iOS 10 application is running in the background on a user's device, and you need to notify them that something needs their attention.
