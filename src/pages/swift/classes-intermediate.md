@@ -8,7 +8,7 @@ date: 2014-08-05T07:45:52
 blurb: A few concepts for taking your understanding of Classes to the next level in Swift.
 ---
 
-A few concepts for taking your understanding of Classes to the next level in Swift. I am certain many if not all of these are techniques you will use over and over. This post continues on where [Swift Classes - The Basics](/swift-archives/basics/classes/) left off, so if you are not familiar with classes you will want to check out that post as well.
+A few concepts for taking your understanding of Classes to the next level in Swift. I am certain many if not all of these are techniques you will use over and over. This post continues on where [Swift Classes - The Basics](swift-archives/swift-archives/basics/classes/) left off, so if you are not familiar with classes you will want to check out that post as well.
 
 **_Subclassing a Class_**
 
