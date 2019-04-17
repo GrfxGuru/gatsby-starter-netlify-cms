@@ -8,7 +8,7 @@ date: 2019-04-17T01:47:27
 blurb: Can Working Remote Full Time Help Juniors? A great question on Dev.to is yielding some insightful responses for junior developers working remotely.
 ---
 
-There was a great question on Dev.to recently [https://dev.to/spences10/can-you-succeed-as-a-junior-developer-in-a-fully-remote-role-2a84/](https://dev.to/spences10/can-you-succeed-as-a-junior-developer-in-a-fully-remote-role-2a84/) by Scott Spence. The conversation is on going at this time, but I thought I would share my response here on my blog to help those that have not come across [https://dev.to">Dev.to](https://dev.to) yet.
+There was a great question on Dev.to recently [https://dev.to/spences10/can-you-succeed-as-a-junior-developer-in-a-fully-remote-role-2a84/](https://dev.to/spences10/can-you-succeed-as-a-junior-developer-in-a-fully-remote-role-2a84/) by Scott Spence. The conversation is on going at this time, but I thought I would share my response here on my blog to help those that have not come across [Dev.to](https://dev.to) yet.
 
 “I think when someone is a junior that is the most critical time to get as much advice as possible, despite all of the cool things we have at our disposal today, sitting with someone and asking in person is still the best way to soak up information in my opinion. Not to mention those sparks that come to you over the water cooler.
 
