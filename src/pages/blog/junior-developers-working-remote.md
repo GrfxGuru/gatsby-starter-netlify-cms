@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-slug: /swift-archives/basics/bug-reporting/
+slug: /junior-developers-working-remotely/
 author: Peter Witham
 tags: ["Development Notes"]
 title: My Response to a great question for junior developers working remotely.
