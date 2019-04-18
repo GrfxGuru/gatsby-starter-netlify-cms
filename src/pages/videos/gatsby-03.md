@@ -4,7 +4,7 @@ slug: /jamstack/gatsby-site-layout-basic-component-creation
 author: Peter Witham
 tags: ["JAMStack", "JavaScript", "Videos", "Tutorials"]
 title: Gatsby - Site Layout and Basic Component Creation
-date: 2019-03-13T00:54:13
+date: 2019-04-14T11:36:13
 blurb: Continuing my explanation of GatsbyJS. In part 2 I give you the overview of site structure and how the files work together to make a site. I also breakdown a simple page and explain how components play their part.
 ---
 
