@@ -14,8 +14,6 @@ People often start to get worried when they first see a page and component creat
 
 Normally we insert our JavaScript into HTML pages, but using React based systems, all we need to do is reverse that and realize that we are just inserting our HTML instide JavaScript code. That is the simple trick to switching your brain to start working with components.
 
-Did you miss part 1 where I walk you through installing and creating a Gatsby site? [Find it here](/jamstack/gatsby-getting-started).
-
 <iframe width="560" height="315" src="https://www.youtube.com/embed/FdlkdHAkYXU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
@@ -25,5 +23,9 @@ Did you miss part 1 where I walk you through installing and creating a Gatsby si
 - [NodeJS](https://nodejs.org/)
 - [SublimeText](https://sublimetext.com)
 
+### Other Videos in this series
+[Part 1: Overview and install](/jamstack/gatsby-getting-started)
+
+[Part 3: Site Layout and Basic Component Creation](/jamstack/gatsby-site-layout-basic-component-creation)
 
 ---

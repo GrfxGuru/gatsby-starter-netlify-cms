@@ -20,5 +20,9 @@ This first video will walk you through what Gatsby is, how to install it locally
 - [GatsbyJS](https://www.gatsbyjs.org/)
 - [NodeJS](https://nodejs.org/)
 
+### Other Videos in this series
+[Part 2: Site Structure and Page Overview](/jamstack/gatsby-structure-file-overview)
+
+[Part 3: Site Layout and Basic Component Creation](/jamstack/gatsby-site-layout-basic-component-creation)
 
 ---
