@@ -18,7 +18,11 @@ You can create a _.gitnignore_ file by hand, or use tools to make it easier and 
 
 ### Using gitignore.io to generate a Swift and Xcode file
 
-Using the gitignore.io web application makes the process of creating the pattern matches simple, and it actually works for any language or tool. All you need to do is enter in the box the languages and tools you plan to use and click _Create_. So for most of us, it will be Swift and Xcode.   [caption id="attachment_2631" align="aligncenter" width="1024"]![GitIgnore.io with Swift and Xcode.](/wp-content/uploads/2017/10/GitInore_io-with-swift-xcode-1024x424.png) gitignore.io with Swift and Xcode.[/caption]   The newly generated file appears in the browser ready to save. Simply save the file with the name _.gitignore_ in your project folder and the work is done. Remember that it will be a hidden file in the finder unless you are set to show them. Here is the code that gitignore.io generated so you can easily copy and paste if you prefer not to create one.
+Using the gitignore.io web application makes the process of creating the pattern matches simple, and it actually works for any language or tool. All you need to do is enter in the box the languages and tools you plan to use and click _Create_. So for most of us, it will be Swift and Xcode.
+
+![](https://peterwitham.com/wp-content/uploads/2017/10/GitInore_io-with-swift-xcode-1024x424.png)
+
+The newly generated file appears in the browser ready to save. Simply save the file with the name _.gitignore_ in your project folder and the work is done. Remember that it will be a hidden file in the finder unless you are set to show them. Here is the code that gitignore.io generated so you can easily copy and paste if you prefer not to create one.
 
 ``` bash
 # Created by https://www.gitignore.io/api/swift,xcode
