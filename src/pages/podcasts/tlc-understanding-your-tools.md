@@ -1,10 +1,10 @@
 ---
 templateKey: blog-post-podcast-tlc
-slug: /podcasts/tlc/new-hardware-is-not-the-answer/
+slug: /podcasts/tlc/understanding-tools/
 author: Peter Witham
 tags: ["Podcast", "The Life Creative"]
 title: The Life Creative - Do you understand your tools and can work without them?
-date: 2018-05-11T17:25:18
+date: 2019-05-29T17:25:18
 blurb: Tools Can Save Time. But do you know how they work and what they are doing for you? You better, one day the situation might change and you have to do it by hand. Listen on to take back control.
 ---
 
