@@ -7,6 +7,7 @@ import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
 import Sidebar from '../components/sidebar'
 import Footer from '../components/footer'
+import AdSense from "react-adsense";
 
 export const BlogPostTemplate = ({
                                    content,
@@ -26,6 +27,10 @@ export const BlogPostTemplate = ({
             <Sidebar/>
             <div className="content swiftPostBackground">
               <div className="column2 is-10 is-offset-1">
+                  <AdSense.Google>
+                      client='ca-pub-4419818894134369'
+                      slot='7977743668'
+                  </AdSense.Google>
                 <h1 className="title has-text-weight-bold is-bold-light">
                   {title}
                 </h1>
