@@ -11,7 +11,6 @@ $body-color: #333
 @import "../sass/header"
 @import "../sass/post-types"
 @import "../sass/sidebar"
-@import "../sass/syntax-highlighting"
 @import "../sass/helpers"
 @import "../sass/navigation"
 @import "../sass/cards"
@@ -37,6 +36,7 @@ $body-color: #333
   border: none !important
   font-size: 1.1em
   padding: 0 0 80px 60px !important
+  max-width: 60%
 
 .content .has-text-primary
   font-weight: bold
@@ -57,10 +57,11 @@ $body-color: #333
     visibility: hidden
 
   .section
-    padding: 10px 5px 0 5px !important
+    padding: 10px 15px 0 15px !important
 
   .content
     padding: 10px 5px 0 5px !important
+    max-width: 80%
 
     p
       font-size: 0.7em !important
