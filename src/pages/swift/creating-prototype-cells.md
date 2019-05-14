@@ -60,7 +60,7 @@ Now we need to go back to our storyboard to assign this new class and make some 
 
 Back in the storyboard file select the _Table View Cell_, personally I find the best way is to click on it in the document outline view.
 
-![Document outline view with table view cell selected.](;pwv/wp-content/uploads/2015/07/Document-outline-view-with-table-view-cell-selected..png)
+![Document outline view with table view cell selected.](https://peterwitham.com/wp-content/uploads/2015/07/Document-outline-view-with-table-view-cell-selected..png)
 
 With the _table view cell_ selected go to the _utilities panel_ and change to the _identity inspector tab_ if not already selected, note that there is a dropdown labelled 'Class', in there either by using the dropdown or by typing select the new class you just created.
 
@@ -204,7 +204,7 @@ To do that you need to either right click or control click on the table and drag
 
 ![](https://peterwitham.com/wp-content/uploads/2015/07/Table-view-dragging-to-view-controller.png)
 
-![](https://peterwitham.com/wp-content/uploads/2015/07/Table-view-setting-View-Controller-as-delegate-and-dataSource.png"><img src="https://peterwitham.com/wp-content/uploads/2015/07/Table-view-setting-View-Controller-as-delegate-and-dataSource.png)
+![](https://peterwitham.com/wp-content/uploads/2015/07/Table-view-setting-View-Controller-as-delegate-and-dataSource.png)
 
 ##Run it!
 
