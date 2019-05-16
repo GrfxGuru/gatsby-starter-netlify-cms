@@ -62,13 +62,13 @@ const IndexPage = ({ pageContext }) => {
                   text={"Visit my Photography Portfolio"}
                   cardLink={"https://www.grfxmedia.com"} />
               </div>
-              <Search classNames={"searchBox"}/>
+              <Search classNames={"searchBox"} />
             </div>
             <div>
               <h1 className='indexBlogPostTitle'>Blog Posts</h1>
               {group
                  .map(({ node }) => (
-                   <div className='content' style={{ border: '1px solid #333', padding: '2em 4em' }} key={node.id}>
+                   <div className='contentindex' style={{ border: '1px solid #333', padding: '2em 4em' }} key={node.id}>
                      <p>
                        <Link className='has-text-primary' to={node.frontmatter.slug}>
                        {node.frontmatter.title}
