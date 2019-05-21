@@ -7,6 +7,7 @@ import twitterIcon from '../img/twitter.svg'
 import linkedInIcon from '../img/linkedin.svg'
 import githubIcon from '../img/github.svg'
 import mailIcon from '../img/mail.svg'
+import StickerMule from './StickerMule'
 
 const Sidebar = () => (
   <div className='sidebar'>
@@ -17,7 +18,7 @@ const Sidebar = () => (
     <a href={'/tags/podcast'}><img src={tlcPodcastIcon} height='20px' width='20px' /> Listen to Podcasts</a>
     <br/>
     {/*<a href={'./tags/jamstack'}>Learn JAMStack</a><br/>
-            <a href={'./tags/videos'}>Watch Videos</a><br/>*/}
+                                            <a href={'./tags/videos'}>Watch Videos</a><br/>*/}
     <br/>
     <h2 class='sidebarWidget'>Social</h2>
     <a href={'/contact/'}><img src={mailIcon} width='20px' height='20px' /> Contact Me</a>
@@ -30,6 +31,7 @@ const Sidebar = () => (
     <br/>
     <br/>
     <BuyMeACoffee/>
+    <StickerMule/>
   </div>
 )
 
