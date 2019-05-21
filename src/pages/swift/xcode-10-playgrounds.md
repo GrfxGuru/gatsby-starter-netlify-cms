@@ -5,8 +5,7 @@ author: Peter Witham
 tags: ["Development Notes", "Swift", "Xcode", "Playgrounds"]
 title: Xcode 10 Playgrounds New Play System Improve Speed and Productivity.
 date: 2018-09-06T12:51:21
-blurb: 
-Playgrounds save time in Xcode 10, playgrounds are getting some serious love in the speed department. Here's the new play system.
+blurb: Playgrounds save time in Xcode 10, playgrounds are getting some serious love in the speed department. Here's the new play system.
 ---
 
 One of the really nice things in Xcode 10 Playgrounds is the changes to how they are compiled and run. No longer is every line of code parsed each time you make a change, which can make for some really long waits depending on the amount of code. Xcode 10 now has a new system, if you open a playground, you will notice a Blue line down the left gutter (where the line numbers are) along with a play icon.
