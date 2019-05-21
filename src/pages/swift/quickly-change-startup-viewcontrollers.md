@@ -10,4 +10,4 @@ blurb: This is a quick tip for those that use Storyboards in Xcode on how you ca
 
 This is a quick tip for those that use Storyboards in Xcode on how you can switch the startup view controller in one step.  You can quickly change the view controller that gets loaded when your iOS application starts by simply clicking and dragging that arrow to the left of the view controller on a storyboard to another view. Watch the video below for a quick demonstration.
 
-![Xcode changing startup screen.](https://peterwitham.com/wp-content/uploads/2015/08/Xcode-changing-startup-screen.mov)
+![Xcode changing startup screen.](https://peterwitham.com/wp-content/uploads/2015/08/Xcode-changing-startup-screen..mov)
