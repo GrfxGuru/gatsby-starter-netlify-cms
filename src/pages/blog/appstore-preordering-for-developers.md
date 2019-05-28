@@ -27,5 +27,7 @@ I am curious to see what happens if a price is actually set lower than what you 
 ### Links
 
 [Apple Developer Documentation on Pre-Ordering](https://developer.apple.com/app-store/pre-orders/)
+
 [iTunes Connect Resources and Help](https://itunespartner.apple.com/en/apps/faq/Managing%20Your%20Apps_Pre-Orders)
+
 [iTunes Connect News Release on Pre-Order Service](https://itunespartner.apple.com/en/apps/news/40079633)
