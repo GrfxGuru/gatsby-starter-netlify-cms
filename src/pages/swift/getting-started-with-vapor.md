@@ -69,7 +69,7 @@ $vapor run serve
 
 If we open up the web page we will not see much by default. But if we put _http://localhost:8080/hello_ we should see a rather uninteresting JSON response saying
 
-``` javascript
+``` json
 {"hello":"world"}
 ```
 
