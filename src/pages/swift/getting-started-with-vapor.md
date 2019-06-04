@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post-swift
-slug: /sswift-archives/getting-started-with-swift-vapor/
+slug: /swift-archives/getting-started-with-swift-vapor/
 author: Peter Witham
 tags: ["Swift", "Vapor", "Serverside"]
 title: Getting Started with Swift Vapor

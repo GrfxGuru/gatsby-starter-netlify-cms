@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post-swift
-slug: /Swift 2 Playground Comments with Markdown
+slug: /swift-archives/playgrounds-2-markdown/
 author: Peter Witham
 tags: ["Swift", "iPad"]
 title: Swift 2 Playground Comments with Markdown

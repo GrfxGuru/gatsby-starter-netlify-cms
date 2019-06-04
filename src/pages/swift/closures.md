@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post-swift
-slug: swift-archives/basics/closures/
+slug: /swift-archives/basics/closures/
 author: Peter Witham
 tags: ["Swift"]
 title: Swift Closures

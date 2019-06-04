@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post-swift
-slug: /quickly-change-ios-start-up-view-controller-in-xcode/
+slug: /swift-archives/quickly-change-ios-start-up-view-controller-in-xcode/
 author: Peter Witham
 tags: ["Development Notes", "Swift", "Xcode"]
 title: Quickly Change iOS Start Up View Controller in Xcode
