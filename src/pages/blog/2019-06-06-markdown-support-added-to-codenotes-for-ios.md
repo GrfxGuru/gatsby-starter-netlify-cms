@@ -1,12 +1,10 @@
 ---
 templateKey: blog-post
+slug: /development-notes/codenotes-markdown-library/
 title: Markdown Support Added to CodeNotes For iOS
 date: 2019-06-06T17:40:51.789Z
-description: >-
-  Markdown Supported. My CodeNotes For iOS now supports markdown in notes. I
-  found the right library!
-tags:
-  - Swift
+description: Markdown Supported. My CodeNotes For iOS now supports markdown in notes. I found the right library!
+tags: Swift
 ---
 I have been working for a while on trying out different ways to incorporate Markdown and/or Syntax Highlighting support in my open source code notes application built for iOS.
 
