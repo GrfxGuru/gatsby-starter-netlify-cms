@@ -6,7 +6,6 @@ tags: ["Development Notes"]
 title: Thoughts on Focusing and Reducing
 date: 2015-03-16T10:27:16
 blurb: I do not always think about direct development i.e. code and design when it comes to my posts. There are times that we need to talk about other areas that are important, this is one of those.
-
 ---
 
 Something that I have found myself thinking about the past month is the journey we all take in our work, play, creative output and process. Not a small topic for sure, but I realized something it was all trying to teach me to do so I can improve everything I do and how I do it. Two simple words came from thinking about this.

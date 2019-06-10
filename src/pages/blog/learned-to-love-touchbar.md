@@ -6,7 +6,6 @@ tags: ["Development Notes", "Hardware"]
 title: How I Learned to Love and Use the MacBook Pro TouchBar
 date: 2018-04-22T00:22:52
 blurb: The MacBook Pro TouchBar has been tamed! It took me a while and a couple of tools, but I have exactly what I want to replace my dock!
-
 ---
 
 More than a few people have the MacBookPro with the TouchBar. But like many, at first, I failed to really see the point. Until I discovered [BetterTouchTool](https://folivora.ai/) and AppleScript! BetterTouchTool has landed on [SetApp](https://pw.d.pr/7f31K6), a service I have been using for a long time to get great Mac Apps for a subscription fee.

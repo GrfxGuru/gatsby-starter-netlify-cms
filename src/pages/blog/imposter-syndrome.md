@@ -6,7 +6,6 @@ tags: ["Development Notes"]
 title: How To Beat Imposter Syndrome
 date: 2018-02-09T10:32:36
 blurb: Imposter Syndrome, We have probably all heard the term and felt the effect at some point in our careers. Here’s how to get over it.
-
 ---
 
 ## You Are Better Than You Think You are
