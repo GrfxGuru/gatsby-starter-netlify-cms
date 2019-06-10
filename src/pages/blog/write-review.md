@@ -3,7 +3,7 @@ templateKey: blog-post
 slug: /reviews/write-application/
 author: Peter Witham
 tags: ["Reviews"]
-title: Review of Write! The Cross-Platform Writing Application
+title: Review of Write The Cross-Platform Writing Application
 date: 2018-03-01T23:51:41
 blurb: Writing Needs a Good Application. I spent a week working with Write! This is my review.
 ---

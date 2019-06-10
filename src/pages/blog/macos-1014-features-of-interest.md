@@ -6,7 +6,6 @@ tags: ["Development Notes"]
 title: macOS 10.14 Features of Interest
 date: 2018-06-24T22:45:28
 blurb: A New Desktop OS Version. There are some exciting new features in macOS Mojave. Here are a few.
-
 ---
 
 The new macOS coming in the Fall/Autumn of 2018 has some very interesting new features. I also have to say, Beta 1 and 2 have been very stable for me. Here are my favorite new features.
