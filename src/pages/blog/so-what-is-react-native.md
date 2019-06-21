@@ -51,7 +51,7 @@ If this post has made you curious then here’s the quick way to get started. I 
 
 - You will need Node and NPM installed. We will install and use Expo to keep things simple.
 - `sudo npm install -g expo-cli`
-- `expo init &lt;appname&gt;`
+- `expo init someappname`
 - just to the directory of the app you created
 - `yarn start` or `npm start`
 - Follow the instructions from Expo.
