@@ -3,7 +3,7 @@ templateKey: blog-post-podcast-tlc
 slug: /podcasts/tlc/never-blindly-follow/
 author: Peter Witham
 tags: ["Podcast", "The Life Creative"]
-title: The Life Creative - Neever Blindly Follow a Trend
+title: The Life Creative - Never Blindly Follow a Trend
 date: 2019-07-02T14:37:28
 blurb: Following a trend without a good reason is a sure way to noty only generate the same content as everyone else, but also limit your expressiveness and skills. Listen on.
 ---
