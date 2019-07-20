@@ -2,7 +2,7 @@
 templateKey: blog-post
 link: /resources/developer/
 author: Peter Witham
-tags: ["Swift", "Resources", "Development Notes"]
+tags: ["Swift", "Resources", "Development Notes", "Software", "Services"]
 title: Recommended Developer Resources
 slug: /resources/developer/
 date: 2016-04-02T02:11:25
