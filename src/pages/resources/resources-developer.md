@@ -2,10 +2,10 @@
 templateKey: blog-post
 link: /resources/developer/
 author: Peter Witham
-tags: ["Swift", "Resources", "Development Notes"]
+tags: ["Swift", "Resources", "Development Notes", "Software", "Services"]
 title: Recommended Developer Resources
 slug: /resources/developer/
-date: 2016-04-02T02:11:25
+date: 2019-07-20T18:41:25
 blurb: There are some fantastic resources for developers out there, so many that it can be impossible to find the really great ones. Here is a list of those that I think are indispensable as a developer.
 ---
 
