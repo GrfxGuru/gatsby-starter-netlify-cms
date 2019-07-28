@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg"
+     xml:space="preserve" xmlns:serif="http://www.serif.com/"
+     style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g id="Artboard1" transform="matrix(1.0038,0,0,1.0038,-1445.68,-330.971)">
+        <rect x="1440.21" y="329.718" width="255.031" height="255.031" style="fill:none;"/>
+        <clipPath id="_clip1">
+            <rect x="1440.21" y="329.718" width="255.031" height="255.031"/>
+        </clipPath>
+        <g clip-path="url(#_clip1)">
+            <g id="Icon" transform="matrix(0.184482,0,0,0.184482,1703.69,388.861)">
+                <g transform="matrix(3.46742,0,0,5.61729,-2057.26,-1131.18)">
+                    <rect x="176.996" y="142.496" width="405.012" height="250.004" style="fill:url(#_Linear2);"/>
+                </g>
+                <g id="Swift-Shape" serif:id="Swift Shape" transform="matrix(1.07059,0,0,1.07059,-1554.38,-492.331)">
+                    <path d="M733.574,208.983C1147.87,490.597 1013.83,800.643 1013.83,800.643C1013.83,800.643 1131.62,933.326 1084.24,1049.76C1084.24,1049.76 1035.5,968.528 954.262,968.528C875.735,968.528 829.702,1049.76 671.294,1049.76C319.277,1049.76 152.745,755.964 152.745,755.964C469.704,964.823 686.187,816.89 686.187,816.89C543.201,733.834 239.396,337.605 239.396,337.605C504.203,562.843 618.491,621.926 618.491,621.926C550.074,565.592 358.54,290.218 358.54,290.218C511.793,445.279 816.163,661.19 816.163,661.19C902.981,422.524 733.574,208.983 733.574,208.983"
+                          style="fill:white;fill-rule:nonzero;"/>
+                </g>
+                <g transform="matrix(1.8322e-16,2.99221,-2.99221,1.8322e-16,926.619,-80.7787)">
+                    <path d="M312.498,353.037L373,474.041L251.996,474.041L312.498,353.037Z" style="fill:white;"/>
+                </g>
+                <g transform="matrix(1.8322e-16,2.99221,-2.99221,1.8322e-16,789.476,-80.7787)">
+                    <path d="M268.503,441.026L356.493,441.026L373,474.041L251.996,474.041L268.503,441.026Z"
+                          style="fill:white;"/>
+                </g>
+            </g>
+        </g>
+    </g>
+    <defs>
+        <linearGradient id="_Linear2" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse"
+                        gradientTransform="matrix(1.84757e-14,-248.336,301.732,1.52062e-14,390.638,391.457)"><stop offset="0" style="stop-color:rgb(239,68,49);stop-opacity:1"/>
+            <stop offset="1" style="stop-color:rgb(250,169,65);stop-opacity:1"/></linearGradient>
+    </defs>
+</svg>
