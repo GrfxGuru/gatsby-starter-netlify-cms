@@ -19,8 +19,10 @@ const Sidebar = () => (
     <br/>
     <a href={'/tags/podcast'}><img src={tlcPodcastIcon} height='20px' width='20px' /> Listen to Podcasts</a>
     <br/>
-    {/*<a href={'./tags/jamstack'}>Learn JAMStack</a><br/>
-                                            <a href={'./tags/videos'}>Watch Videos</a><br/>*/}
+      <a href={'/tags/jam-stack'}>Learn JAMStack</a>
+      <br/>
+      <a href={'./resources/developer/'}>Developer Resources</a>
+      <br/>
     <br/>
     <h2 class='sidebarWidget'>Social</h2>
     <a href={'/contact/'}><img src={mailIcon} width='20px' height='20px' /> Contact Me</a>
