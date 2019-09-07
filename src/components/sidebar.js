@@ -17,7 +17,7 @@ const Sidebar = () => (
     <h2 class='sidebarWidget'>Navigation</h2>
     <a href={'/tags/swift'}><img src={swiftIcon} height='20px' width='18px' /> Swift Programming</a>
     <br/>
-    <a href={'/tags/podcast'}><img src={tlcPodcastIcon} height='20px' width='20px' /> Listen to Podcasts</a>
+      <a href={'/podcasts'}><img src={tlcPodcastIcon} height='20px' width='20px'/> Listen to Podcasts</a>
     <br/>
       <a href={'/tags/jam-stack'}>Learn JAMStack</a>
       <br/>

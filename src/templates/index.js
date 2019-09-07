@@ -47,10 +47,10 @@ const IndexPage = ({ pageContext }) => {
                   text={"Lots of tutorials covering many topics."}
                   cardLink={"/tags/videos/"} />
                 <Card
-                  title={"Podcasts"}
-                  cardDesign={"singleCard singleCardVideo"}
-                  text={"Podcast on all things creative to inspire."}
-                  cardLink={"/tags/podcast/"} />
+                    title={"Podcasts"}
+                    cardDesign={"singleCard singleCardVideo"}
+                    text={"Podcast on all things creative to inspire."}
+                    cardLink={"/podcasts/"}/>
                 <Card
                   title={"Contact"}
                   cardDesign={"singleCard singleCardContact"}
