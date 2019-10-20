@@ -4,7 +4,7 @@ slug: /podcasts/ggc/s01-e15/
 author: Peter Witham
 tags: ["Podcast", "GGC"]
 title: Geezers Who Game and Code - Professional eSports Discussion
-date: 2019-09-28T19:43:00
+date: 2019-10-20T02:42:00
 blurb: After a brief update on our Destiny 2 progress we move on to deep dive in to professional eSports and our opinions.
 ---
 

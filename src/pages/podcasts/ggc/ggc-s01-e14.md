@@ -4,7 +4,7 @@ slug: /podcasts/ggc/s01-e14/
 author: Peter Witham
 tags: ["Podcast", "GGC"]
 title: Geezers Who Game and Code - Are You in a Menu Right Now?
-date: 2019-09-28T19:43:00
+date: 2019-10-13T19:00:00
 blurb: How did I let Masternewms talk me in to going back into Destiny? You'll have to listen to find out.
 ---
 
