@@ -6,46 +6,48 @@ import Sidebar from '../components/sidebar'
 import Footer from '../components/footer'
 
 class TagRoute extends React.Component {
-    render() {
-        const posts = this.props.data.allMarkdownRemark.edges
-        const postLinks = posts.map(post => (
-            <li key={post.node.frontmatter.slug}>
-                <Link to={post.node.frontmatter.slug}>
-                    <p className="is-size-2">{post.node.frontmatter.title}</p>
-                </Link>
-            </li>
-        ))
-        const tag = this.props.pageContext.tag
-        const title = this.props.data.site.siteMetadata.title
-        const totalCount = this.props.data.allMarkdownRemark.totalCount
-        const tagHeader = `${totalCount} post${
+  render () {
+    const posts = this.props.data.allMarkdownRemark.edges
+    const postLinks = posts.map(post => (
+      <li key={post.node.frontmatter.slug}>
+        <Link to={post.node.frontmatter.slug}>
+        <p className='is-size-2'>
+          {post.node.frontmatter.title}
+        </p>
+        </Link>
+      </li>
+    ))
+    const tag = this.props.pageContext.tag
+    const title = this.props.data.site.siteMetadata.title
+    const totalCount = this.props.data.allMarkdownRemark.totalCount
+    const tagHeader = `${totalCount} post${
             totalCount === 1 ? '' : 's'
             } tagged with “${tag}”`
 
-        return (
-            <Layout>
-                <section className="section">
-                    <Helmet title={`${tag} | ${title}`} />
-                    <div className="container content">
-                        <Sidebar/>
-                        <div className="columns taglistPage">
-                            <div
-                                className="column"
-                                style={{marginBottom: '6rem'}}
-                            >
-                                <h2 className="is-bold-light">{tagHeader}</h2>
-                                <ul className="taglist is-size-4">{postLinks}</ul>
-                                <p>
-                                    <Link to="/tags/">Browse all tags</Link>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <Footer/>
-            </Layout>
-        )
-    }
+    return (
+      <Layout>
+        <section className='section'>
+          <Helmet title={`${tag} | ${title}`} />
+          <div className='container content'>
+            <Sidebar/>
+            <div className='columns taglistPage'>
+              <div className='column' style={{marginBottom: '6rem'}}>
+                <h3 className='is-bold-light'>{tagHeader}</h3>
+                <ul className='taglist is-size-3' style={{fontWeight: 'bold'}}>
+                  {postLinks}
+                </ul>
+                <p>
+                  <Link to='/tags/'> Browse all tags
+                  </Link>
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <Footer/>
+      </Layout>
+    )
+  }
 }
 
 export default TagRoute
