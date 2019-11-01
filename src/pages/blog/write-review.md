@@ -30,11 +30,11 @@ The first thing I always do with applications is drop in the preferences and see
 
 ![](img/post_images/write_review/Screenshot-of-Write-2-18-18-3-00-19-PM-squashed-174x300.jpg)
 
-![](img/post_images/write_review/Screenshot-of-Write-2-18-18-3-05-09-PM-squashed-152x300.jpg")
+![](img/post_images/write_review/Screenshot-of-Write-2-18-18-3-05-09-PM-squashed-152x300.jpg)
 
-![](img/post_images/write_review/Screenshot-of-Write-2-18-18-3-05-45-PM-squashed-164x300.jpg")
+![](img/post_images/write_review/Screenshot-of-Write-2-18-18-3-05-45-PM-squashed-164x300.jpg)
 
-![](img/post_images/write_review/Screenshot-of-Write-2-18-18-3-06-14-PM-squashed-168x300.jpg")
+![](img/post_images/write_review/Screenshot-of-Write-2-18-18-3-06-14-PM-squashed-168x300.jpg)
 
 **Cursor width**
 
