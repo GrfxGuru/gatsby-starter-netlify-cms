@@ -14,4 +14,4 @@ I use the [Carmesim](https://packagecontrol.io/packages/Theme%20-%20Carmesim) th
 
 Here is a screenshot of how it looks on my system.
 
-![SublimeText 3 Theme and Color](https://peterwitham.com/wp-content/uploads/2015/02/SublimeText-3-Theme-and-Color.png)
+![SublimeText 3 Theme and Color](img/post_images/SublimeText-3-Theme-and-Color.png)

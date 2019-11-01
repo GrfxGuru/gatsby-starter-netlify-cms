@@ -12,15 +12,15 @@ More than a few people have the MacBookPro with the TouchBar. But like many, at 
 
 I had used BTT before to configure my Magic Mouse and Magic Trackpad. I eagerly installed it again on my MacBook Pro and noticed it now has a section for the TouchBar.
 
-![](https://peterwitham.com/wp-content/uploads/2018/04/Screenshot-of-ScreenFloat-4-21-18-11-46-26-PM-squashed.png)
+![](img/post_images/Screenshot-of-ScreenFloat-4-21-18-11-46-26-PM-squashed.png)
 
 I dived right in, after altering a few settings and searching for a couple of Apple Scripts to control and display iTunes and Spotify, I now have my perfect touch bar setup. It is also slowly replacing permanent spots on my Dock, once you start thinking about it as a working dock it suddenly seems very useful doesn’t it! Here is my current setup.
 
-![](https://peterwitham.com/wp-content/uploads/2018/04/Touch-Bar-Shot-2018-04-21-at-11.39.46-PM-squashed.png)
+![](img/post_images/Touch-Bar-Shot-2018-04-21-at-11.39.46-PM-squashed.png)
 
 I have shortcuts to run Finder, iTerm, Xcode and Ulysses (Ulysses is also on the [SetApp](https://pw.d.pr/7f31K6) service). I also have it display running songs from iTunes and Spotify along with a volume control and a play/pause button. If you are curious how the setup looks in Better Touch Tool here is that as well.
 
-![](https://peterwitham.com/wp-content/uploads/2018/04/Screenshot-of-BetterTouchTool-Setapp-4-21-18-11-51-22-PM.png) 
+![](img/post_images/Screenshot-of-BetterTouchTool-Setapp-4-21-18-11-51-22-PM.png)
 
 I know what you are thinking
 

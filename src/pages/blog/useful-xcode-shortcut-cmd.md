@@ -10,4 +10,4 @@ blurb: Fixing Errors Productively. A short and quick tip on speeding that error 
 
 Don’t deny it, we all get errors. Working through the list is my quick tip here, using the keyboard shortcut _command + ‘_ navigates you to the next item on the list without ever leaving the editor or keyboard.
 
-<img src="https://peterwitham.com/wp-content/uploads/2019/05/Screen-Recording-2019-05-09-at-12.13-PM-1024x640.gif" alt="" width="1024" height="640"/>
+<img src="img/post_images/Screen-Recording-2019-05-09-at-12.13-PM-1024x640.gif" alt="" width="1024" height="640"/>

@@ -14,4 +14,4 @@ The first thing I want to note is that my site is hosted on SmugMug, this is pri
 
 I think my design is clean allowing viewers to focus on what really matters to them, the images.
 
-![GrfxMedia.com Design](https://peterwitham.com/wp-content/uploads/2018/12/Capto_Capture-2018-12-16_01-57-05_AM-squashed.jpg)
+![GrfxMedia.com Design](imgs/post_images/Capto_Capture-2018-12-16_01-57-05_AM-squashed.jpg)

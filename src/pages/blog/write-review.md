@@ -10,9 +10,9 @@ blurb: Writing Needs a Good Application. I spent a week working with Write! This
 
 I am always looking for ways to improve my productivity and writing creation process. I use 3 computing platforms, many different devices, and I still like to use a pen and notepads. So you can imagine that when someone asks me if I would be interested in reviewing a new tool I jump at the chance.
 
-This is how I came across the cross-platform (macOS, Windows, Linux) application Write! ([Web Site](https://writeapp.co/welcome/ky1eijy)) $24.95.
+This is how I came across the cross-platform (macOS, Windows, Linux) application Write! ([Web Site](https://writeapp.co/welcome/ky1eijy)) \$24.95.
 
-![](https://peterwitham.com/wp-content/uploads/2018/03/Write-Web-Hero-Image.jpg")
+![](img/post_images/write_review/Write-Web-Hero-Image.jpg)
 
 I want you the reader to know that the creators of Write! made an account for me to review the product, but in no way influenced my opinions or views.
 
@@ -22,19 +22,19 @@ The first thing you should do is make sure you have a Write! account. When you i
 
 When I first run the application on two different Mac's I got an error
 
-![](https://peterwitham.com/wp-content/uploads/2018/03/First-Run-Installation-Error-300x161.jpg)
+![](img/post_images/write_review/First-Run-Installation-Error-300x161.jpg)
 
 I clicked OK and restarted the application and the error disappeared, your experience may be different, but it appears that everything worked fine on my machines. I have reached out to the developers and provided information that could give some answers.
 
 The first thing I always do with applications is drop in the preferences and see what I can do to make apps feel like home to me. Write! has some interesting options that I want to cover here and explain some of my choices.
 
-![](https://peterwitham.com/wp-content/uploads/2018/03/Screenshot-of-Write-2-18-18-3-00-19-PM-squashed-174x300.jpg)
+![](img/post_images/write_review/Screenshot-of-Write-2-18-18-3-00-19-PM-squashed-174x300.jpg)
 
-![](https://peterwitham.com/wp-content/uploads/2018/03/Screenshot-of-Write-2-18-18-3-05-09-PM-squashed-152x300.jpg")
+![](img/post_images/write_review/Screenshot-of-Write-2-18-18-3-05-09-PM-squashed-152x300.jpg")
 
-![](https://peterwitham.com/wp-content/uploads/2018/03/Screenshot-of-Write-2-18-18-3-05-45-PM-squashed-164x300.jpg")
+![](img/post_images/write_review/Screenshot-of-Write-2-18-18-3-05-45-PM-squashed-164x300.jpg")
 
-![](https://peterwitham.com/wp-content/uploads/2018/03/Screenshot-of-Write-2-18-18-3-06-14-PM-squashed-168x300.jpg")
+![](img/post_images/write_review/Screenshot-of-Write-2-18-18-3-06-14-PM-squashed-168x300.jpg")
 
 **Cursor width**
 
@@ -74,7 +74,7 @@ This is another great feature from many code editing applications. This feature 
 
 This can produce a strange artifact in the navigator though, you will notice that by folding the section it still shows the space taken up in the navigator. Personally, I feel this is the way it should work as I can still get a feel for how large an area is taken up by that folded text.
 
-![](https://peterwitham.com/wp-content/uploads/2018/03/Screenshot-of-Write-2-18-18-6-00-01-PM.png)
+![](img/post_images/write_review/Screenshot-of-Write-2-18-18-6-00-01-PM.png)
 
 ###Writing
 
@@ -82,13 +82,13 @@ When writing there are a few features that can help you be more productive and c
 
 When you right click something in the text editor you get a rich menu of tools to work with, this saves you from going to the application menu all the time. These tools include formatting text and applying styles, to editing colors and checking grammar with Web look up.
 
-![](https://peterwitham.com/wp-content/uploads/2018/03/Right-Click-Editor-Menu-2-25-18-3-08-14-PM-squashed-300x221.jpg)
+![](img/post_images/write_review/Right-Click-Editor-Menu-2-25-18-3-08-14-PM-squashed-300x221.jpg)
 
 **Writing Length Reference Tool**
 
 One feature I have never come across in any other writing application is the quick access reference for document lengths. For example, with a couple of clicks, I can check the suggested length for Twitter, Social Networks, Emails, Short Stories and Books to name just a few. This is a great feature to keep you on track for respecting reference rules that users might be expecting when reading your documents. I would love to see this taken further and used as targets while you are writing.
 
-![](https://peterwitham.com/wp-content/uploads/2018/03/Document-Reference-Lengths-2-25-18-3-14-18-PM-squashed-173x300.jpg)
+![](img/post_images/write_review/Document-Reference-Lengths-2-25-18-3-14-18-PM-squashed-173x300.jpg)
 
 **Sessions**
 
@@ -98,9 +98,9 @@ Write! has something called 'Sessions'. This provides the opportunity to have an
 
 Once you have finished creating your new masterpiece you naturally reach the time to publish. Write! offers built-in support for Medium, WordPress and Write! platform.
 
-![](https://peterwitham.com/wp-content/uploads/2018/03/Publish-Panel-Medium-2-25-18-4-04-35-PM-squashed-261x300.jpg)
+![](img/post_images/write_review/Publish-Panel-Medium-2-25-18-4-04-35-PM-squashed-261x300.jpg)
 
-![](https://peterwitham.com/wp-content/uploads/2018/03/Publish-Panel-Wordpress-2-25-18-4-05-30-PM-squashed-256x300.jpg)
+![](img/post_images/write_review/Publish-Panel-Wordpress-2-25-18-4-05-30-PM-squashed-256x300.jpg)
 
 First, you choose the platform, fill in the appropriate options and publish, yes it is that simple! If you publish to the Write! platform you can manage those documents via the Web control panel after you login to your account.
 
