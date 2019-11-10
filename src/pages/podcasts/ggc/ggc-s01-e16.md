@@ -3,7 +3,7 @@ templateKey: blog-post-podcast-ggc
 slug: /podcasts/ggc/s01-e16/
 author: Peter Witham
 tags: ["Podcast", "GGC"]
-title: GGC Podcast: Blizzcon Blitz + Ban Baby
+title: GGC Podcast - Blizzcon Blitz + Ban Baby
 date: 2019-11-10T00:18:05
 blurb: Let's talk Blizzcon. well we did. Even Diablo 4 now that it's a thing, this and more in episode 16.
 ---
