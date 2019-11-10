@@ -13,6 +13,7 @@ blurb: Let's talk Blizzcon. well we did. Even Diablo 4 now that it's a thing, th
 Blizzcon 2019 happened, we talk about what went down and what we think of it plus a few more things.
 
 **Show notes:**
+
 [Diablo 4 Trailer](https://youtu.be/9bRWIdOMfro)
 
 [eSports Episode](https://anchor.fm/gamecode/episodes/Destiny-2-Completion-Update-and-Professional-eSports---good-or-bad-e7sgeq
@@ -24,4 +25,5 @@ Blizzcon 2019 happened, we talk about what went down and what we think of it plu
 
 **Streams:**
  [https://twitch.tv/masternewms](https://twitch.tv/masternewms) 
+ 
  [https://twitch.tv/grfxg](https://twitch.tv/grfxg) 
