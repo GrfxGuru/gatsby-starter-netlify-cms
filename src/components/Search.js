@@ -32,16 +32,28 @@ class Search extends Component {
 
         return (
             <div className={this.props.classNames}>
-                <span className="searchBoxLabel">SEARCH:</span>
+                <p className="searchBoxLabel">SEARCH:</p>
+              <form method="get" id="search" action="https://duckduckgo.com/">
+                <input type="hidden" name="sites" value="peterwitham.us" />
+                <input type="hidden" name="k8" value="#444444" />
+                <input type="hidden" name="k9" value="#ee4792" />
+                <input type="hidden" name="kt" value="h" />
                 <input
-                    className="search__input"
-                    type="text"
-                    onChange={this.search}
-                    placeholder={'Search'}
+                  class="field"
+                  type="text"
+                  name="q"
+                  maxlength="255"
+                  placeholder="To search, type and hit Enter…"
+                  style={{
+                    width: '80%',
+                    height: 28,
+                    borderRadius: 6,
+                    paddingLeft: 4,
+                    paddingRight: 4,
+                    fontSize: 16,
+                  }}
                 />
-                <div className="search__list">
-                    <ResultList />
-                </div>
+              </form>
             </div>
         )
     }
