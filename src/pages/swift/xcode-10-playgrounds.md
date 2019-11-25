@@ -10,11 +10,11 @@ blurb: Playgrounds save time in Xcode 10, playgrounds are getting some serious l
 
 One of the really nice things in Xcode 10 Playgrounds is the changes to how they are compiled and run. No longer is every line of code parsed each time you make a change, which can make for some really long waits depending on the amount of code. Xcode 10 now has a new system, if you open a playground, you will notice a Blue line down the left gutter (where the line numbers are) along with a play icon.
 
-![Xcode 10 Playground](https://peterwitham.com/wp-content/uploads/2018/09/xcode10-pg-blue.png)
+![Xcode 10 Playground](/img/post_images/swift/xcode10-pg-blue.png)
 
 The Blue line indicates to us that this code is ready to run. If we click on the play icon in the circle, or use shift + return to run the playground all the code up to the play head will be executed for us. To better demonstrate this I am going to move the cursor to line 3. If I press shift + return to execute the code up to and including line 3, you will notice the Blue bar change.
 
-![Xcode 10 Playground, Partial Play](https://peterwitham.com/wp-content/uploads/2018/09/xcode10-partial-playground.png)
+![Xcode 10 Playground, Partial Play](/img/post_images/swift/xcode10-partial-playground.png)
 
 Notice how lines 1, 2, and 3, no longer have the Blue background. This indicates to us that these lines have been executed successfully. So what does it mean that lines 4 and 5 still have the Blue background, you ask? Well, this is the playgrounds way of telling us that those two lines are the only ones that will be executed next time we press play. This is great, the playground is telling us ‘hey lines 1,2, and 3 have not changed and will not affect the results. So I will not bother executing the again for you’. That means faster times for us. See, this is the playground trying to help us out and only perform lines of code that are necessary on each run. It analyses the code for us and determines if first, the code has changed since the last run, and secondly, does any of that code need to be run again as it affects the processing of any other new lines of code. How cool is that!
 
