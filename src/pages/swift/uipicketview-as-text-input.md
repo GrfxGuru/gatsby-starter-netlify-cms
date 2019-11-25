@@ -20,7 +20,7 @@ So you need a user to input something in a text field, but you want to be sure t
 
 I have created a simple one screen application with a text field. The end goal is for the user to touch on the text field where they will be presented with a list of options to choose from, the currently selected option will appear in the text field. Currently, I have the textfield and no code.
 
-![](https://peterwitham.com/wp-content/uploads/2017/01/Xcode-with-Empty-TextField-squashed.png)
+![](/img/post_images/swift/Xcode-with-Empty-TextField-squashed.png)
 
 Firstly, I need to create an outlet for the UITextfield so that when the selection in the picker changes, I can update the displayed text.
 
@@ -54,7 +54,7 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
 
 The first thing that will happen is we will get an error indicator that says something like Type ‘ViewController’ does not conform to the protocol ‘UIPickerViewDataSource’ This simply means we need to implement the requirements to act as the delegate.Lucky for us, I know that we need to add the following functions according to the Swift documentation. If you are using Xcode 9 the code editor will offer an option to 'Fix' the problem by adding the protocol stubs for you.
 
-![](https://peterwitham.com/wp-content/uploads/2017/01/XC9FixProtocol-1024x96.png)  
+![](/img/post_images/swift/XC9FixProtocol-1024x96.png)  
 
 ``` swift
 // MARK: UIPickerView Delegation
@@ -78,7 +78,7 @@ Right now, this is still wrong, the functions are expecting to return something,
     let myPickerData = [String](arrayLiteral: "Peter", "Jane", "Paul", "Mary", "Kevin", "Lucy")'
 ```
 
-Now that we have some data we can fill in those functions. ``
+Now that we have some data we can fill in those functions.
 
 ``` swift
 // MARK: UIPickerView Delegation
@@ -100,7 +100,7 @@ func pickerView( pickerView: UIPickerView, didSelectRow row: Int, inComponent co
 }
 ```
 
-With the functions in place we have now satisfied the delegation, so all that remains is to tell our picker that this _viewController_ is acting as it’s delegate. Back in the _viewdidLoad()_ is where we do that. ``
+With the functions in place we have now satisfied the delegation, so all that remains is to tell our picker that this _viewController_ is acting as it’s delegate. Back in the _viewdidLoad()_ is where we do that.
 
 ``` swift
 thePicker.delegate = self
@@ -108,7 +108,7 @@ thePicker.delegate = self
 
 Our work is complete, if you run the application and touch on the text field, a view picker should appear with our list in it. If you change the selection, the text field should update.
 
-![](https://peterwitham.com/wp-content/uploads/2017/01/Xcode11Simulator-592x1024.png)
+![](/img/post_images/swift/Xcode11Simulator-592x1024.png)
 
 ### The Wrap
 

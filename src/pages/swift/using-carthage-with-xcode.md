@@ -26,7 +26,7 @@ Like most package managers, Carthage needs to have instructions. These are creat
 
 With the file in place, I will now run Carthage, it will download the repository and build the frameworks for me automatically. Here is the output.
 
-![](https://peterwitham.com/wp-content/uploads/2017/12/CarthageExecution-squashed-1024x181.jpg)
+![](/img/post_images/swift/CarthageExecution-squashed-1024x181.jpg)
 
 If you look in the folder where Carthage was run you will now see a folder called _Carthage_, inside that folder there are two folders called _Build_ and _Checkouts_. The _Checkouts_ folder contains the cloned repository files. The _Build_ folder contains the results of the build, yeah kinda obvious that last one I know. Since Evergreen has multiple build targets there is a folder for each. In each of those you will find the framework.
 
@@ -38,11 +38,11 @@ Now that we have successfully built our frameworks, we can add them to our Xcode
 
 Open the application target “General” settings tab and look for the “Embedded Binaries” section. Drag and drop the framework(s) that you built using Carthage onto that section.
 
-![](https://peterwitham.com/wp-content/uploads/2017/12/ScreenFlow.gif)
+![](/img/post_images/swift/ScreenFlow.gif)
 
 You will also want to add the debug symbols by going to “Build Phases” and either use the “+” icon followed by “New Copy Files Phase”. Select “Destination” then “Products Directory”. Drag and drop the dSYM file just like before.
 
-![](https://peterwitham.com/wp-content/uploads/2017/12/ScreenFlow2.gif)
+![](/img/post_images/swift/ScreenFlow2.gif)
 
 ### iOS, tvOS and watchOS
 

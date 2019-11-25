@@ -14,7 +14,7 @@ In this tutorial I'm going to show you how to create a _UIPickerView_ control an
 
 First create a new single view project as that is all we need for this example. Then find the _Picker View_ control in the object library and drag an instance to the storyboard. You will also want to create an _@IBOutlet_ for the picker, by now I'm assuming I do not need to cover how to do that, if not then see any of my previous [Swift posts](/category/swift/).
 
-![](https://peterwitham.com/wp-content/uploads/2015/01/01-Starting-Storyboard-with-Picker-View..png)
+![](/img/post_images/swift/01-Starting-Storyboard-with-Picker-View..png)
 
 I feel it is worth pointing out that if you run the application before configuring the picker view then you will see nothing on the screen, go ahead and try it if you don't believe me!
 
@@ -43,7 +43,7 @@ Let's stop for a second and briefly talk about what that all means. When you say
 
 The documentation from Apple can help answers those questions for us by telling us what is required and what else is available should we need it. One way to get to the information is to click on _UIPickerViewDataSource_ or _UIPickerViewDelegate_ and use the quick help panel found to the right in Xcode if you happen to have it open, in there towards the bottom is _Reference_ with a link you can click to open the documentation up. Or alternatively you can search the documentation using a method of your choice. Let's do it with _UIPickerViewDataSource_ first.
 
-![](https://peterwitham.com/wp-content/uploads/2015/01/03-Documentation-—-UIPickerViewDataSource-Protocol-Reference.png)
+![](/img/post_images/swift/03-Documentation-—-UIPickerViewDataSource-Protocol-Reference.png)
 
 Notice that it tells us there are two _Required_ _protocols_ we need to take care of
 
@@ -57,7 +57,7 @@ Let's get _UIPickerViewDelegate_ information as well while we are at it. Do the 
     - pickerView
 
 
-![](https://peterwitham.com/wp-content/uploads/2015/01/04-Documentation-—-UIPickerViewDelegate-Protocol-Reference.png)
+![](/img/post_images/swift/04-Documentation-—-UIPickerViewDelegate-Protocol-Reference.png)
 
 (This ends the quick overview of finding protocol requirements) OK we had to get all that out the way some time, now back to the code since we know what we need to implement (Xcode will also remind you by complaining until you satisfy the requirements).
 
@@ -170,7 +170,7 @@ class ViewController: UIViewController,
 
 Now run the application and you should have a picker displayed showing our list of items!
 
-![](https://peterwitham.com/wp-content/uploads/2015/01/05-iOS-Simulator.png)
+![](/img/post_images/swift/05-iOS-Simulator.png)
 
 So there was a lot to read for just one simple(?) control, but we had to cover some important topics like delegation and protocols and this felt like the time to get an introduction out of the way.
 
