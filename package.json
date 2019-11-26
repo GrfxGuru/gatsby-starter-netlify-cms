@@ -12,7 +12,7 @@
     "eslint-plugin-react": "^7.14.2",
     "express-graphql": "^0.9.0",
     "gatsby": "^2.13.32",
-    "gatsby-cli": "^2.7.17",
+    "gatsby-cli": "^2.8.13",
     "gatsby-image": "^2.2.6",
     "gatsby-paginate": "^1.1.0",
     "gatsby-plugin-feed": "^2.3.5",
