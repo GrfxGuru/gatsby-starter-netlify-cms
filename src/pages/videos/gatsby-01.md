@@ -25,4 +25,5 @@ This first video will walk you through what Gatsby is, how to install it locally
 
 [Part 3: Site Layout and Basic Component Creation](/jamstack/gatsby-site-layout-basic-component-creation)
 
+[Part 4: Basic Site Styling and Navigation Setup](/jamstack/gatsby-site-basic-site-styling-navigation-setup)
 ---

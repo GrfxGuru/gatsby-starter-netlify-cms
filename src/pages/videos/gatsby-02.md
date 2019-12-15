@@ -28,4 +28,5 @@ Normally we insert our JavaScript into HTML pages, but using React based systems
 
 [Part 3: Site Layout and Basic Component Creation](/jamstack/gatsby-site-layout-basic-component-creation)
 
+[Part 4: Basic Site Styling and Navigation Setup](/jamstack/gatsby-site-basic-site-styling-navigation-setup)
 ---
