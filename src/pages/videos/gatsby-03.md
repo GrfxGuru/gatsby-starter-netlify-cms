@@ -27,4 +27,5 @@ Along the way, we create some basic CSS with horrible colors so we can clearly s
 [Part 2: Site Structure and Page Overview](/jamstack/gatsby-structure-file-overview)
 
 [Part 4: Basic Site Styling and Navigation Setup](/jamstack/gatsby-site-basic-site-styling-navigation-setup)
+
 ---
