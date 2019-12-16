@@ -6,7 +6,7 @@ slug: /swift-archives/intermediate/alert-with-user-entry/
 tags: ["Swift"]
 title: Display an Alert with Text Field Entry
 date: 2015-01-06T07:30:12
-blurb: In this post I will show you how to display a text entry field in an alert to get input from the user and use that input back in the application. 
+blurb: In this post I will show you how to display a text entry field in an alert to get input from the user and use that input back in the application.
 ---
 
 In my previous post titled ['Display an Alert or Action Sheet Using Swift in iOS 8'](https://peterwitham.com/swift/intermediate/display-an-alert/) I showed you how to create and display an alert using Swift and iOS 8. In this post I will take that a step further and show you how to display a text entry field in an alert to get input from the user and use that input back in the application. In this example we will simply take the entered text and change a label on the view, however these simple principles apply for using the data any way you wish.
@@ -15,7 +15,7 @@ Let's get started.
 
 First off, I created a new Swift based _Single View Application_ and added one button and one label to the display. I also took advantage of Xcode and let it assign missing constraints for me so the view stays nice at any device size and rotation, I also added an _@IBOutlet_ for the label and an _@IBAction_ for the button. These should be familiar to you by now, if not please [see my other Swift posts](/tags/swift/)
 
-![01 - Storyboard with label and button.](https://peterwitham.com/wp-content/uploads/2015/01/01-Storyboard-with-label-and-button..png)
+![01 - Storyboard with label and button.](img/post_images/01-Storyboard-with-label-and-button..png)
 
 From this point onwards we will be entering code in the button _@IBAction_ that we created.
 
@@ -104,16 +104,16 @@ So the entire code content for the button should look like this
     }
 ```
 
-![02 - Code in ViewController for Alert](https://peterwitham.com/wp-content/uploads/2015/01/02-Code-in-ViewController-for-Alert.png)
+![02 - Code in ViewController for Alert](img/post_images/02-Code-in-ViewController-for-Alert.png)
 
 Save the project and run in either the simulator or your device and try it out. Click the button on the view and the alert should appear waiting for some input.
 
-![03 - iOS Simulator - iPhone 6](https://peterwitham.com/wp-content/uploads/2015/01/03-iOS-Simulator-iPhone-6-iPhone-6-iOS-8.1-12B411.png)
+![03 - iOS Simulator - iPhone 6](img/post_images/03-iOS-Simulator-iPhone-6-iPhone-6-iOS-8.1-12B411.png)
 
 Enter some text and touch / click _Submit_
 
-![04 - iOS Simulator Alert Entry with text](https://peterwitham.com/wp-content/uploads/2015/01/04-iOS-Simulator-Alert-Entry-with-text.png)
+![04 - iOS Simulator Alert Entry with text](img/post_images/04-iOS-Simulator-Alert-Entry-with-text.png)
 
 You should now see the text you entered on the view displayed in the label.
 
-![05 - iOS Simulator displaying text entered from alert](https://peterwitham.com/wp-content/uploads/2015/01/05-iOS-Simulator-displaying-text-entered-from-alert.png)
+![05 - iOS Simulator displaying text entered from alert](img/post_images/05-iOS-Simulator-displaying-text-entered-from-alert.png)

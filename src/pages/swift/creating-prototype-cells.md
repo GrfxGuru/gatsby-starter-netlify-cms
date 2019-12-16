@@ -12,9 +12,9 @@ Prototype cells in iOS tables do have a learning curve for those not familiar wi
 
 Before we start there are a few assumptions made although you can easily follow along regardless of experience.
 
-  * First, you are familiar with creating new classes.
-  * Also you are with familiar creating functions.
-  * Lastly we will be using to a small degree constraints.
+- First, you are familiar with creating new classes.
+- Also you are with familiar creating functions.
+- Lastly we will be using to a small degree constraints.
 
 With that out the way, what are we going to do and why?
 
@@ -24,13 +24,13 @@ In this example I am going to display two labels powered by data from our table 
 
 The outline of the steps we are going to perform are as follows
 
-  1. Add a table view to our view controller.
-  2. Add a prototype cell to our table and add the content we need, in this example it is two label objects.
-  3. Create a class for our cell to use, this gives us many abilities going forward but for now it simply gives us a way to create _@IBOutlets_ for our labels to receive data.
-  4. Make our view a delegate for the table view, I chose not to use a _tableViewController_ since many times people will want more than just a table on the view.
-  5. Create a struct to control the data we will use.
-  6. Create a data object and populate it using our struct as the template.
-  7. Finally we will tell our table all about the data by telling it how many cells to create and what should go in them based on our prototype cell class we created.
+1. Add a table view to our view controller.
+2. Add a prototype cell to our table and add the content we need, in this example it is two label objects.
+3. Create a class for our cell to use, this gives us many abilities going forward but for now it simply gives us a way to create _@IBOutlets_ for our labels to receive data.
+4. Make our view a delegate for the table view, I chose not to use a _tableViewController_ since many times people will want more than just a table on the view.
+5. Create a struct to control the data we will use.
+6. Create a data object and populate it using our struct as the template.
+7. Finally we will tell our table all about the data by telling it how many cells to create and what should go in them based on our prototype cell class we created.
 
 Sounds like a lot? It really is not going to take long, I just want to make sure that all the steps are explained for those starting from scratch. Remember you can always come back to this post anytime you need something, and please share with friends!
 
@@ -38,15 +38,15 @@ Sounds like a lot? It really is not going to take long, I just want to make sure
 
 First create a new single view application making sure to use the _Swift_ language. Then add a _Table View_ to the _View Controller_. Now add a _Table View Cell_ to the table, dragging from the objects library to the table on a storyboard is probably the quickest way. You should have something like this
 
-![Storyboard with Table and empty prototype cell](https://peterwitham.com/wp-content/uploads/2015/07/Storyboard-with-Table-and-empty-prototype-cell-1024x601.png)
+![Storyboard with Table and empty prototype cell](img/post_images/Storyboard-with-Table-and-empty-prototype-cell-1024x601.png)
 
 At this point we need to give our prototype cell a _reuse identifier_ so it can be referenced in code later on. With the new prototype cell selected go to the _utilities panel_ and select the _attributes inspector_, in there at the top is a section called 'Table View Cell' and an entry field labelled as 'Identifier' enter a name, I went with 'myProtoCell'
 
-![attribute inspector showing prototype cell reuse identifier name](https://peterwitham.com/wp-content/uploads/2015/07/attribute-inspector-showing-prototype-cell-reuse-identifier-name.png)
+![attribute inspector showing prototype cell reuse identifier name](img/post_images/attribute-inspector-showing-prototype-cell-reuse-identifier-name.png)
 
 Now we get to start designing our prototype cell. Drag a label to the cell and place it in the top left corner. There is probably no room left so we need to expand the height of the cell by hovering the mouse over the bottom edge of the cell where it should change and let us click and drag to a height big enough for two labels. Do this and then drag a second label below the first.
 
-![Prototype cell with two labels.](https://peterwitham.com/wp-content/uploads/2015/07/Prototype-cell-with-two-labels.-1024x601.png)
+![Prototype cell with two labels.](img/post_images/Prototype-cell-with-two-labels.-1024x601.png)
 
 That is the layout taken care of, now to the code!
 
@@ -54,17 +54,17 @@ That is the layout taken care of, now to the code!
 
 Now we need to create a new class that our prototype cell is going to use, this gives us a convenient way to hook up our labels to _@IBOutlets_ so we can send data into each cell as it is being created.
 
-Create a new file of type _Cocoa Touch Class_ that subclasses _UITableViewCell_ ensuring again that it uses the _Swift_ language. ![Xcode - New class file creation window](https://peterwitham.com/wp-content/uploads/2015/07/Xcode-New-class-file-creation-window.png)
+Create a new file of type _Cocoa Touch Class_ that subclasses _UITableViewCell_ ensuring again that it uses the _Swift_ language. ![Xcode - New class file creation window](img/post_images/Xcode-New-class-file-creation-window.png)
 
 Now we need to go back to our storyboard to assign this new class and make some additions to it.
 
 Back in the storyboard file select the _Table View Cell_, personally I find the best way is to click on it in the document outline view.
 
-![Document outline view with table view cell selected.](https://peterwitham.com/wp-content/uploads/2015/07/Document-outline-view-with-table-view-cell-selected..png)
+![Document outline view with table view cell selected.](img/post_images/Document-outline-view-with-table-view-cell-selected..png)
 
 With the _table view cell_ selected go to the _utilities panel_ and change to the _identity inspector tab_ if not already selected, note that there is a dropdown labelled 'Class', in there either by using the dropdown or by typing select the new class you just created.
 
-![Utilities tab with new class name selected](https://peterwitham.com/wp-content/uploads/2015/07/Utilities-tab-with-new-class-name-selected.png)
+![Utilities tab with new class name selected](img/post_images/Utilities-tab-with-new-class-name-selected.png)
 
 ## Hook up our cell text labels using IBOutlets
 
@@ -72,7 +72,7 @@ Open the _Assistant Editor_ with the table cell selected and you should see the 
 
 Either right click or control and click from each of the text labels in the cell to the editor window to create two _@IBOutlets_.
 
-![Storyboard with labels and outlets](https://peterwitham.com/wp-content/uploads/2015/07/Storyboard-with-labels-and-outlets-1024x601.png)
+![Storyboard with labels and outlets](img/post_images/Storyboard-with-labels-and-outlets-1024x601.png)
 
 ## Data source creation
 
@@ -82,7 +82,7 @@ Open the _ViewController.swift_ and you should see the standard code that gets c
 
 We are going to use a simple _struct_ as the template for our data source. Just inside the opening _class_ tag add
 
-``` swift
+```swift
 Struct MyData {
     var firstRowLabel:String
     var secondRowLabel:String
@@ -91,13 +91,13 @@ Struct MyData {
 
 This gives us two string variables that will store our data. In order to use this new struct and to power the table we will need an array. Below the struct we just created, create a new variable which will be an array that holds a type of our struct.
 
-``` swift
+```swift
 var tableData: [MyData] = []
 ```
 
 The code for your view controller should now look something like this
 
-``` swift
+```swift
 //
 //  ViewController.swift
 //  PrototypeCellBasics
@@ -109,14 +109,14 @@ The code for your view controller should now look something like this
 import UIKit
 
 class ViewController: UIViewController {
-    
+
     struct MyData {
         var firstRowLabel:String
         var secondRowLabel:String
     }
-    
+
     var tableData: [MyData] = []
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -131,7 +131,7 @@ class ViewController: UIViewController {
 
 The last part is to actually add some data to our array, inside the _viewDidLoad()_ function let's add some rows of data, remember that our struct is going to make it simple! So here is the entire code for the _viewDidLoad()_ function, be sure to use any names that might be different from the ones I have used. I added three items of data to the array.
 
-``` swift
+```swift
 override func viewDidLoad() {
     super.viewDidLoad()
     // Do any additional setup after loading the view, typically from a nib.
@@ -149,25 +149,25 @@ With our data created we now need to be responsible for our table and that means
 
 We need to change our _ViewController.swift_ to act as the delegate and data source for our table, this is done in the usual way by changing
 
-``` swift
+```swift
 class ViewController: UIViewController {
 ```
 
 to
 
-``` swift
+```swift
 class ViewController:UIViewController, UITableViewDelegate, UITableViewDataSource {
 ```
 
 At this point Xcode will start complaining that we have not satisfied the requirements to be a table delegate and we should now make it happy by adding the required functions to do that. First we will add them and then we will customize them to suit what we need, so go ahead if you want and just paste the code below into the view controller. Note that Xcode is still going to complain since we have not completed the code in these functions.
 
-``` swift
+```swift
 func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
 
 }
-    
+
  func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        
+
 }
 ```
 
@@ -177,7 +177,7 @@ Now we are ready for the final steps, we have our view taken care of along with 
 
 We will start with returning the number of items in our data array to give the total number of cells we need to create in the table.
 
-``` swift
+```swift
 func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
     return tableData.count
 }
@@ -185,7 +185,7 @@ func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> In
 
 The last one is a little more complicated, we create a cell and populate it with data from our data source and then finally return that to be added to the display. This function is called for each cell in the display automatically. I have added code comments to explain what is happening.
 
-``` swift
+```swift
 func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
     // Create a new cell with the reuse identifier of our prototype cell
     // as our custom table cell class
@@ -198,19 +198,20 @@ func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexP
     return cell
 }
 ```
+
 Anyone that has used tables before and delegation will notice there is one more step, we need to tell our table that our view controller is going to act as the delegate and data source (now that we have completed the code).
 
 To do that you need to either right click or control click on the table and drag up to the View Controller icon at the top of our view controller on the storyboard. When you do this you will get two options, we actually need to do it twice and select both.
 
-![](https://peterwitham.com/wp-content/uploads/2015/07/Table-view-dragging-to-view-controller.png)
+![](img/post_images/Table-view-dragging-to-view-controller.png)
 
-![](https://peterwitham.com/wp-content/uploads/2015/07/Table-view-setting-View-Controller-as-delegate-and-dataSource.png)
+![](img/post_images/Table-view-setting-View-Controller-as-delegate-and-dataSource.png)
 
 ##Run it!
 
 With everything done go ahead and run the application, I am using the iPhone 5 simulator so I can get the screenshot.
 
-![](https://peterwitham.com/wp-content/uploads/2015/07/Simulator-iPhone-5-Truncated-labels.png)
+![](img/post_images/Simulator-iPhone-5-Truncated-labels.png)
 
 ## Wait a minute! You forgot something!
 
@@ -220,13 +221,13 @@ To make the labels stretch correctly and see our content on any rotation of any 
 
 Ensuring that you have the view controller selected go down to the bottom right of the storyboard window and look for the icon on the far right. Click it and a menu should appear with the option 'Add Missing Constraints' in the all views section, simply click that and Xcode is smart enough to fix the problems for you (but it does not always work so be aware of that in the future!).
 
-![](https://peterwitham.com/wp-content/uploads/2015/07/Add-missing-constraints-menu.png)
+![](img/post_images/Add-missing-constraints-menu.png)
 
 Run the application again and now everything should work just fine at any size and any rotation.
 
-![](https://peterwitham.com/wp-content/uploads/2015/07/Simulator-iPhone-5-3-rows-vertical-table.png)
+![](img/post_images/Simulator-iPhone-5-3-rows-vertical-table.png)
 
-![](https://peterwitham.com/wp-content/uploads/2015/07/Simulator-iPhone-5-iPhone-5-horizontal-table-cells.png)
+![](img/post_images/Simulator-iPhone-5-iPhone-5-horizontal-table-cells.png)
 
 ## Well done!
 

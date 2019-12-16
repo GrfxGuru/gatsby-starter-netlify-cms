@@ -16,11 +16,11 @@ As a follow-up to my article on [calculating a date using Swift](/swift/basics/h
 
 For this exercise, I created a new single view iPhone application. I have added two steppers, a date selector, and several labels to the storyboard. I also added the _@IBOutlets_ and _@IBActions_ for each component. See the screenshot for reference. By now if you have been following my other articles this should all be very familiar. If not, I recommend reading some of my other articles [here](/swift/).
 
-![](https://peterwitham.com/wp-content/uploads/2016/11/Storyboard-with-Starting-Code.jpg)
+![](/img/post_images/Storyboard-with-Starting-Code.jpg)
 
 I also added some code to the viewDidLoad() method to set some initial display labels and the values of the steppers.
 
-``` swift
+```swift
 dayStepper.value = 0
 hourStepper.value = 0
 displayDayStepperValue.text = "0"
@@ -30,7 +30,7 @@ displayDate.text = displayTheDate(theDate: dateSelector.date)
 
 I added a method that takes a date for an argument and returns a formatted string to be used for display. It creates a new _dateFormatter_ object and sets the _dateFormat_ to “MM-DD-YYYY | hh-mm”. That date is then converted to a string and returned. This method is called in the _viewDidLoad()_ and will also be used when our date is changed by the user interacting with the UI.
 
-``` swift
+```swift
 func displayTheDate(theDate:Date) -> String {
     let dateFormatter = DateFormatter()
     dateFormatter.dateFormat = "MM-dd-YYYY | hh-mm"
@@ -41,7 +41,7 @@ func displayTheDate(theDate:Date) -> String {
 
 Now all that is left to do is add the code for when the stepper values and date component values change. Since these three components essentially trigger the same action, which is to calculate the new date, they will all call one method so we do not repeat code. **Remember, code duplication is bad!** For the two stepper functions I also added the code to change the displayed value, since the stepper value is an _Int_ I cast it to a string for display.
 
-``` swift
+```swift
 @IBAction func dayStepperChanged(_ sender: UIStepper) {
     displayDate.text = displayTheDate(theDate: calculateNewDate())
     displayDayStepperValue.text = String(dayStepper.value)
@@ -61,7 +61,7 @@ We still need to create the _calculateNewDate()_ method but let’s break down t
 
 ### Date Calculation Using Calendar Components
 
-``` swift
+```swift
 func calculateNewDate() -> Date {
     let date = dateSelector.date
     let calendar = NSCalendar.current
@@ -77,7 +77,7 @@ Let's break this all down and make sense of it. First, a new date object is crea
 
 I set them to the _dayStepper_ and _hourStepper_ values respectively. Note, they have to be cast to _Int_ instead of their native _Double_ value types. Finally I created a new date object and assign the value of _calendar_ plus the component values (_byAdding: components, to: date_). The calculated date is returned from the method. So the entire viewController code looks like this
 
-``` swift
+```swift
 //
 //  ViewController.swift
 //  FutureDateUsingComponents
