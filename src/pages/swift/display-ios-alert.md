@@ -12,11 +12,11 @@ In this example I will show you how to make an alert appear in a Swift based iOS
 
 First, I created a new single view application, I added text entry and button controls to the screen also creating an _@IBOutlet_ and _@IBAction_ for both controls.
 
-![](https://peterwitham.com/wp-content/uploads/2014/12/02-Storyboard-with-outlet-and-action..png)
+![](img/post_images/02-Storyboard-with-outlet-and-action..png)
 
 The alert view and action sheet both use the _UIAlertController_ class, the class will provide you an instance that you use to present your alert. So let's create an instance when the user touches the button.
 
-``` swift
+```swift
 var alertController:UIAlertController?
 alertController = UIAlertController(title: "Alert",
                                     message: textEntryField.text,
@@ -27,7 +27,7 @@ There are some straightforward arguments to complete of which the first one spea
 
 Now we need to add any actions that we want to the alert view (or action sheet!), these would normally be buttons, so we create instances of the _UIAlertAction_ class and use the _addAction:_ method to strangely enough add them! The first action will simply do nothing which makes the alert disappear, the second will clear the contents of the text entry field.
 
-``` swift
+```swift
 // The cancel button
 let firstAction = UIAlertAction(title: "OK",
     style: UIAlertActionStyle.Cancel,
@@ -44,14 +44,14 @@ let secondAction = UIAlertAction(title: "Clear Text",
 
 The final stage in preparing the alert is to add the actions to the alert.
 
-``` swift
+```swift
 alertController!.addAction(firstAction)
 alertController!.addAction(secondAction)
 ```
 
 Then finally, we need to present the alert view as the last part of the code when the button is touched. We do this by telling the current viewController _self_ to present it.
 
-``` swift
+```swift
 self.presetViewController(alertController!,
                           animated: true,
                           completion: nil)
@@ -59,7 +59,7 @@ self.presetViewController(alertController!,
 
 So the entire contents of the button action should look like this
 
-``` swift
+```swift
 @IBAction func btnDisplayAlert(sender: AnyObject) {
 var alertController:UIAlertController?
 alertController = UIAlertController(title: "Alert",
@@ -85,11 +85,11 @@ self.presentViewController(alertController!,
 }
 ```
 
-![](https://peterwitham.com/wp-content/uploads/2014/12/03-Storyboard-and-complete-code.png)
+![](img/post_images/03-Storyboard-and-complete-code.png)
 
 Now run the application and enter some text and touch the button, you should see the sheet appear with the two possible options.
 
-![](https://peterwitham.com/wp-content/uploads/2014/12/04-iOS-Simulator-iPhone-6-Alert-Sheet.png)
+![](/img/post_images/04-iOS-Simulator-iPhone-6-Alert-Sheet.png)
 
 Try a button then the other.
 

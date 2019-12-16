@@ -14,11 +14,11 @@ You have most likely heard the term, maybe even encountered it. But what is depe
 
 For my example I am going to use a simple application built in Swift that uses two views and two view controllers, I have already assigned the two viewControllers to each of the views.
 
-![](https://peterwitham.com/wp-content/uploads/2018/02/two-viewcontrollers.png)
+!["View controller images"](/img/post_images/two-viewcontrollers.png)
 
 The first view has a button that loads the second view via a segue. This should be straight forward to understand. We simply perform the segue when the button is clicked. Now the second view has something a little different, there is a text label that will display something. To do that, we have an _@IBOutlet_ connected to the text label, but where will that data come from? I have a property on the second view controller called _theLabel_ that is of type string. We are going to inject a string into that when the segue is performed from the first view. Lastly there is one other thing to mention and that is in the _viewDidLoad_ I assign the injected property to the _@IBOutlet_ created for the text label. Here is the entire code for the second view controller
 
-``` swift
+```swift
 import UIKit
 
 class SecondViewController: UIViewController {
@@ -42,7 +42,7 @@ class SecondViewController: UIViewController {
 
 So let’s take a look at the injection part. We already know that the second view controller label field is dependent on a property called _theLabel_. All that remains is to inject that with something when we segue from the first view. So for that we are going to _override_ prepare for segue with the following
 
-``` swift
+```swift
 override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
     let destinationController = segue.destination as! SecondViewController
     destinationController.theLabel = "Hello From View 1!"
@@ -51,7 +51,7 @@ override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
 
 Breaking it down, we create a new constant called _destinationController_ and we say it is of type _SecondViewController_. That gives us access to the second view controllers properties. All that is left to do is assign a string to _theLabel_ and that is it. Here is the complete code for the first view controller.
 
-``` swift
+```swift
 import UIKit
 
 class ViewController: UIViewController {
