@@ -12,7 +12,7 @@ blurb: 3D Touch Just Never Took Off. But I'm willing to bet that iOS 13's new co
 
 iOS 13 is getting a new _contextual menu_ system that you can take advantage of, and the best part is that it works on all devices that support the OS, so that means devices that do not have the force touch (or do we just call it 3D touch now?).
 
-<img src="https://peterwitham.com/wp-content/uploads/2019/06/Capto_Capture-2019-06-09_11-41-17_PM-152x300.png" alt="" width="304" height="600"/>
+<img src="/img/post_images/Capto_Capture-2019-06-09_11-41-17_PM-152x300.png" alt="" width="304" height="600"/>
 
 (Image is copyright Apple 2019)
 

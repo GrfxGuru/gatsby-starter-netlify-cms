@@ -18,26 +18,26 @@ For this example, I am going to have a text field you can enter text into that g
 
 Add a _Text Field, Switch,_ and _Button_ to the stage, if desired add constraints to keep the UI nice.
 
-![](https://peterwitham.com/wp-content/uploads/2016/09/sboard-tf-sw-bt.png)
+![](/img/post_images/sboard-tf-sw-bt.png)
 
-Now, add an _IBOutlet_ for both the _Text Field_ and the _Switch_. Lastly, add an _IBAction_ for the _Button_, these should be in the _ViewController.swift_. If you were to run the application now, you could certainly enter text and toggle the switch, but if you closed the application (I mean CLOSE and not just hit the home button to send it to the background), everything would be restored back to the default setting. So let’s add the magic that stores our state.
+Now, add an _IBOutlet_ for both the *Text Field* and the _Switch_. Lastly, add an _IBAction_ for the _Button_, these should be in the _ViewController.swift_. If you were to run the application now, you could certainly enter text and toggle the switch, but if you closed the application (I mean CLOSE and not just hit the home button to send it to the background), everything would be restored back to the default setting. So let’s add the magic that stores our state.
 
 ### What is UserDefaults
 
 Before we go any further, I want to briefly talk about what _UserDefaults_ can do for us and how it works. _UserDefaults_ is much like a plist, a plist is a simple _key-value_ pair file that stores types of data. We give each item a name and value for retrieval later. The following types of data can be stored.
 
-  * NSData
-  * NSString
-  * NSNumber
-  * NSDate
-  * NSArray
-  * NSDictionary
+- NSData
+- NSString
+- NSNumber
+- NSDate
+- NSArray
+- NSDictionary
 
 As you can see it is clearly designed for small simple chunks of data that you would use for settings and the like. When we create an instance of the _UserDefaults_ object, it returns to us what is essentially a _singleton_ as each subsequent reference returns back that same instance rather than creating a new one. Enough information, on with the show that you probably came here for! A little planning is required here as to what we need to do, so let’s make a requirement list of what we need the app to do and when.
 
-  * We need to allow for the first run experience when there is no settings file.
-  * We want to load the settings when the app loads and set the UI up if any settings exist.
-  * We want to save the settings when the button is clicked.
+- We need to allow for the first run experience when there is no settings file.
+- We want to load the settings when the app loads and set the UI up if any settings exist.
+- We want to save the settings when the button is clicked.
 
 OK, so time to code up the requirements.
 
@@ -45,20 +45,20 @@ OK, so time to code up the requirements.
 
 First, we need to get access to NSUserDefault, we will do that in the _viewDidLoad()_ for this example. Since we want to be a good Swift citizen we will use a _let_ rather than var.
 
-``` swift
+```swift
 let defaults = UserDefaults.standard
 ```
 
 Since we would expect to use the key names for reading and writing, we want to minimize the chances of typo’s. To do that we will use _constants_ for them. Just inside the class, add two constants, one for the text field key name, and another for the switch key name.
 
-``` swift
+```swift
 let textFieldKeyConstant = “textFieldKeyName”
 let switchKeyConstant = “switchKeyName”
 ```
 
 Now we can use those and never have to worry about typing a name wrong. Next back inside the _viewDidLoad()_ after our _defaults_ line, we will get and assign the values. **BUT** we need to practice safe coding, so we will check that there is a value to load.
 
-``` swift
+```swift
 if let textFieldValue = defaults.string(forKey: textFieldKeyConstant) {
     myTextField.text = textFieldValue
 }
@@ -66,7 +66,7 @@ if let textFieldValue = defaults.string(forKey: textFieldKeyConstant) {
 
 Now we will add the switch. Since it simply needs a _boolean_ to turn either on or off, we can get the value and set the switch a different way.
 
-``` swift
+```swift
 if (defaults.bool(forKey: switchKeyConstant)) {
     mySwitch.isOn = true
 } else {
@@ -80,7 +80,7 @@ That is the reading and UI setup completed, now the last step is to wire up the 
 
 Inside the function we assigned to the button, we again get a reference to our _UserDefaults_ and then set values for the two key names.
 
-``` swift
+```swift
 let defaults = UserDefaults.standard
 defaults.setValue(myTextField.text, forKey: textFieldKeyConstant)
 defaults.set(mySwitch.isOn, forKey: switchKeyConstant)
@@ -88,7 +88,7 @@ defaults.set(mySwitch.isOn, forKey: switchKeyConstant)
 
 Notice we use two different methods for storing the values, one for a _string_ and another for a _boolean_. Syntax autocomplete will provide you a list to choose from, so be sure to pick the right one for the value type you are using. So that is our coding completed, running the application and touching the button will store the values you set each time the application is run (again, do not confuse going to the background with starting the application). Here is the complete code for the _viewController.swift_ in my application.
 
-``` swift
+```swift
 //
 //  ViewController.swift
 //  NSUserDefaultsExample

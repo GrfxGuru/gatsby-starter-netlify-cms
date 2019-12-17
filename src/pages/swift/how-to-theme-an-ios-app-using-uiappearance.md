@@ -18,14 +18,13 @@ So the idea is that there are a series of Structs containing the defined color s
 
 For creating and testing our themes we only need a simple application, I have included two views with some of the same components appearing on each view to demonstrate that the color changes are global in nature. Two buttons will be used to switch between the two themes. Each view controller has a _UIViewController_ which will contain the code for reacting to the user and calling the theme switcher. The theme switcher will be a Struct containing both the colors and the code to update the components displayed colors.
 
-![](https://peterwitham.com/wp-content/uploads/2018/03/2ViewControllersWithControls-squashed.png)
+![](/img/post_images/2ViewControllersWithControls-squashed.png)
 
 ### Create The Themes and Switcher
 
 First up we will create our new Struct file with the color themes. For this, I created a file called _Styles.swift_ I created a Struct called _Theme_ and inside there I created two functions for each of the two themes, _defaultTheme()_ and _darkTheme()_. These two functions assign a _UIColor_ to each of the properties that I also defined inside the Struct.
 
-
-``` swift
+```swift
 import Foundation
 import UIKit
 
@@ -60,7 +59,7 @@ struct Theme {
 }
 ```
 
-  To break the code down a little, there are some static properties with meaningful names that I will reference in the application code. This way I can _get_ one of the colors using something like _Theme.backgroundColor_ for example. The reason this is important is simple, the code of the application will have access to a color if it is needed. The color itself will be set by the functions inside the struct, so I can add as many different themes as I want without ever having to change the references inside my application code where I assign the properties to control properties.
+To break the code down a little, there are some static properties with meaningful names that I will reference in the application code. This way I can _get_ one of the colors using something like _Theme.backgroundColor_ for example. The reason this is important is simple, the code of the application will have access to a color if it is needed. The color itself will be set by the functions inside the struct, so I can add as many different themes as I want without ever having to change the references inside my application code where I assign the properties to control properties.
 
 The last function in the struct _updateDisplay_ creates a proxy control for each of the controls I want to set the theming for. In this example, I have two buttons and I also set the view background color. The colors are taken from the properties in the struct and assigned.
 
@@ -68,7 +67,7 @@ The last function in the struct _updateDisplay_ creates a proxy control for each
 
 On the buttons in the first view using _view1ViewController_ I now need to create _@IBActions_.
 
-``` swift
+```swift
 @IBAction func darkButton(_ sender: UIButton) {
     Theme.darkTheme()
     self.loadView()
@@ -82,7 +81,7 @@ On the buttons in the first view using _view1ViewController_ I now need to creat
 
 Each button function calls the appropriate theme function inside the _Theme_ Struct, then it calls _self.loadView()_ to update the currently displayed view. One last little touch is needed, I set the default theme in the _AppDelegate_ inside the _application_ function.
 
-``` swift
+```swift
 func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions:
                   [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
 // Override point for customization after application launch.
@@ -93,7 +92,7 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
 
 Now time to run and test.
 
-![](https://peterwitham.com/wp-content/uploads/2018/03/Capture.gif)
+![](/img/post_images/Capture.gif)
 
 ### The Wrap
 

@@ -12,10 +12,10 @@ So here’s a little tip that took me longer to figure out than it probably shou
 
 Yes there is a space in the name. For the observant, you cannot import a name with a space.
 
-![](https://peterwitham.com/wp-content/uploads/2018/04/Screenshot-of-Xcode-4-10-18-12-04-53-PM.png)
+![](/img/post_images/Screenshot-of-Xcode-4-10-18-12-04-53-PM.png)
 
 So the solution is simpler than you might think, replace the space(s) with an underscore.
 
-![](https://peterwitham.com/wp-content/uploads/2018/04/Screenshot-of-Xcode-4-10-18-12-05-19-PM.png)
+![](/img/post_images/Screenshot-of-Xcode-4-10-18-12-05-19-PM.png)
 
 Problem solved. I hope this saves you some time banging your head against a testing wall.

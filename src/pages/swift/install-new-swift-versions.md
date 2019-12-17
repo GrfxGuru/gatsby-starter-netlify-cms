@@ -12,32 +12,32 @@ Xcode ships with Swift, but you are not limited to just that version. In fact, y
 
 ### Download Swift
 
-  1. Go to <https://swift.org> and click on ‘DOWNLOAD’ then ‘Snapshots’ from the left navigation menu.
+1. Go to <https://swift.org> and click on ‘DOWNLOAD’ then ‘Snapshots’ from the left navigation menu.
 
-![](https://peterwitham.com/wp-content/uploads/2016/05/Swift.org-Download-Swift.jpeg)
+![](/img/post_images/Swift.org-Download-Swift.jpeg)
 
-  2. You will see a table with a version for Xcode and Ubuntu. Click on ‘Xcode’, be sure to NOT click on ‘Debugging Symbols’ as that is a different file.
+2. You will see a table with a version for Xcode and Ubuntu. Click on ‘Xcode’, be sure to NOT click on ‘Debugging Symbols’ as that is a different file.
 
 ![](https://peterwitham.com/wp-content/uploads/2016/05/Swift.org-Download-Swift-2.jpeg)
 
-  3. Once downloaded run the installer.
-  4. Installer completed and you are ready to switch to Xcode.
+3. Once downloaded run the installer.
+4. Installer completed and you are ready to switch to Xcode.
 
 ### Configure Xcode
 
-  1. Open Xcode and go to the ‘Preferences’.
-  2. Change to the ‘Components’ tab. You will notice a sub tab called ‘Toolchains’, click on it.
+1. Open Xcode and go to the ‘Preferences’.
+2. Change to the ‘Components’ tab. You will notice a sub tab called ‘Toolchains’, click on it.
 
-![](https://peterwitham.com/wp-content/uploads/2016/05/Xcode-Components.png)
+![](/img/post_images/Xcode-Components.png)
 
-  3. Surprise! You now have a new option to use a Swift Development Snapshot, must be something you just installed right?
-  4. Now you can switch between versions by choose either the default or any that you install. Note that you will need to restart Xcode when changing choices.
+3. Surprise! You now have a new option to use a Swift Development Snapshot, must be something you just installed right?
+4. Now you can switch between versions by choose either the default or any that you install. Note that you will need to restart Xcode when changing choices.
 
 ### This sucks, I want to go back to stock!
 
 OK so eventually you could end up with either redundant versions installed or you just want to get rid of everything and go back to stock Swift installed with Xcode. As with all things Xcode, there are some hidden options until you roll over one of the installed toolchains. Hover over one of the listed items and look to the right of the name (before Origin). Do you see that little gear icon? That one little icon will let you verify the install, go to the files in the finder or remove the install.
 
-![](https://peterwitham.com/wp-content/uploads/2016/05/Screen.jpeg)
+![](/img/post_images/Screen.jpeg)
 
 You will not be able to remove the currently selected (duh!) so just choose either the default or something else and then you can remove any installs.
 

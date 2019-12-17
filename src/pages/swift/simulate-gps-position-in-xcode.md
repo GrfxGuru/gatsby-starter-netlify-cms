@@ -12,7 +12,7 @@ There are times that you will want to simulate a position for testing GPS in an 
 
 To do this, you will need an active session, so go ahead and run your application in Xcode and open up the debugging window ( _Shift + CMD + Y_ ) or _View > Debug Area > Show Debug Area_. Do you notice the Arrow on the toolbar for the Window that looks just like the GPS one on an iPhone? Click on it and a menu will appear.
 
-![](https://peterwitham.com/wp-content/uploads/2016/09/GPS-Bar-in-Xcode-Debugger.jpg)
+![](/img/post_images/GPS-Bar-in-Xcode-Debugger.jpg)
 
 Notice that not only do we have a list of pre-defined locations we can select from, but we can also add our own. So how do we do that?
 
@@ -24,12 +24,12 @@ So I happen to know the address is Parliament Square, Westminster, St Margaret S
 
 Now I just have to click _Download_ and the file will download to my machine.
 
-![](https://peterwitham.com/wp-content/uploads/2016/09/gpx-poi-big-ben-london.jpg)
+![](/img/post_images/gpx-poi-big-ben-london.jpg)
 
 Now back in Xcode, open up the menu again from the debugger bar and choose _Add GPX File to Project…_ at the bottom of the menu, and load the file just downloaded. You may have to rename the file first, when I downloaded the file it had a .txt extension, just remove that and ensure it has .gpx extension.
 
 Just click finish when the dialog box comes up asking if you want to import the file into the project. Now when you open up the menu again you should see the newly imported location added to the list.
 
-![](https://peterwitham.com/wp-content/uploads/2016/09/xcode-gps-menu-with-big-ben.jpg)
+![](/img/post_images/xcode-gps-menu-with-big-ben.jpg)
 
 You will most likely need the Latitude and Longitude coordinates for the location you want to use for it to work properly. But that is all you need to do for adding custom locations in Xcode projects.

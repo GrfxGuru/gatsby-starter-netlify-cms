@@ -14,26 +14,25 @@ blurb: Swift on The Server. There is a growing popularity for using Swift on the
 
 From the terminal, we will first run a script from the Web to ensure we have compatible versions of Xcode and Swift.
 
-``` bash
+```bash
     $curl -sL check.vapor.sh | bash
 ```
 
-![](https://peterwitham.com/wp-content/uploads/2017/10/Terminal-Vapor-Check-Script.png)
+![](/img/post_images/Terminal-Vapor-Check-Script.png)
 
 ## Install Vapor
 
 Next, we want to install Vapor’s toolbox and Vapor, this might take a little while depending on your Internet connection. Again, we run a script from the terminal to make this install easy.
 
-``` bash
+```bash
 $curl -sL toolbox.vapor.sh | bash
 ```
- 
 
 ## Create a new Vapor project
 
 Now that we have everything we need installed, it is time to create a Vapor application. Using the terminal we create a new application by giving it a name, this name will also be used as the folder name.
 
-``` bash
+```bash
 $vapor new hello-world
 $cd hello-world
 ```
@@ -42,7 +41,7 @@ $cd hello-world
 
 You do not have to use Xcode if you prefer something else, for example, Sublime Text or AppCode. That said, I would recommend using Xcode to keep things simple. To use Xcode we need to create a project for Xcode to load because Vapor is not like creating a new Xcode project and selecting a template. So at the terminal simply type.
 
-``` bash
+```bash
 $vapor xcode
 ```
 
@@ -56,28 +55,29 @@ Take note of the output after you created the Xcode project. It is telling us th
 
 I want to give you more than one way to work with Vapor, so please know that you are not restricted to using Xcode. You can take advantage of the Swift Package Manager, this means you can build and run from the terminal as well. In the application directory, you can build from the terminal using
 
-``` bash
+```bash
 $vapor build
 ```
 
-  To run the application you will actually run the server using ``
+To run the application you will actually run the server using ``
 
-``` bash
+```bash
 $vapor run serve
 ```
+
 ## The App
 
 If we open up the web page we will not see much by default. But if we put _http://localhost:8080/hello_ we should see a rather uninteresting JSON response saying
 
-``` json
-{"hello":"world"}
+```json
+{ "hello": "world" }
 ```
 
 This means everything worked just fine!
 
 Time to move on and start writing some code. The code that generated that return can be found in _Sources>App>Routes>Routes.swift_. Let’s take a look at that file as it will show us some of the basics we need to get started.
 
-``` swift
+```swift
 import Vapor
 
 extension Droplet {
@@ -107,7 +107,7 @@ extension Droplet {
 
 The main class in Vapor is called _Droplet_ this is where you will do most if not all of the needed coding for your application. Inside the _extension_ is a function that handles routing for our application. If you are not familiar with that concept, it is a way to handle URL’s and serve up the right content. Let’s take a look at one to better explain how it works.
 
-``` swift
+```swift
 get("hello") { req in
     var json = JSON()
     try json.set("Hello", "World")
