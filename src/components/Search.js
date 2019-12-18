@@ -34,7 +34,7 @@ class Search extends Component {
             <div className={this.props.classNames}>
                 <p className="searchBoxLabel">SEARCH:</p>
               <form method="get" id="search" action="https://duckduckgo.com/">
-                <input type="hidden" name="sites" value="peterwitham.us" />
+                <input type="hidden" name="sites" value="peterwitham.net" />
                 <input type="hidden" name="k8" value="#444444" />
                 <input type="hidden" name="k9" value="#ee4792" />
                 <input type="hidden" name="kt" value="h" />
