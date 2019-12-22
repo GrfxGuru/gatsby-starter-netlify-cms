@@ -5,6 +5,7 @@ import { StaticQuery, graphql } from "gatsby"
 import Navbar from '../components/Navbar'
 import './all.sass'
 import '../sass/syntax-highlighting.sass'
+import '../sass/darkmode.css'
 
 const TemplateWrapper = ({ children }) => (
   <StaticQuery

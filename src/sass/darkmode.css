@@ -1,0 +1,43 @@
+@media (prefers-color-scheme: dark) {
+  html {
+    background-color: black;
+  }
+
+  body {
+    background-color: black;
+    color: white;
+  }
+
+  .sidebarWidget {
+    background-color: #3b110b;
+    border-radius: 10px;
+    padding: 5px 0 10px 10px;
+  }
+
+  #gatsby-focus-wrapper > div > div > section > div > div.sidebar h2 {
+    color: white;
+  }
+
+  .has-text-primary {
+    color: #b91a1a !important;
+  }
+
+  .content h1 {
+    color: #b91a1a;
+  }
+
+  .content h2 {
+    color: #a72727;
+  }
+  .content h3 {
+    color: #a72727;
+  }
+
+  .tagListOnPosts {
+    background-color: #47211b;
+  }
+
+  .tagListOnPosts {
+    color: white;
+  }
+}
