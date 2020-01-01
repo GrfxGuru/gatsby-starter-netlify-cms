@@ -2,11 +2,7 @@ import React from "react";
 
 const AdvertSetApp = () => (
   <div style={{ textAlign: "center", marginBottom: 20 }}>
-    <a
-      href="https://go.setapp.com/invite/f8627428-ba2a-4c15-8976-3b78f218ce2b"
-      target="_blank"
-      rel="nofollow"
-    >
+    <a href="https://pw.d.pr/7f31K6" target="_blank" rel="nofollow">
       <img
         src="img/adverts/setapp-banner-728x90.jpg"
         alt="SetApp Banner"
