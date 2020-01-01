@@ -7,40 +7,39 @@ import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
 import Sidebar from '../components/sidebar'
 import Footer from '../components/footer'
+import Advert from '../components/adverts/advert_setapp'
+import AdvertSetApp from '../components/adverts/advert_setapp'
 
-export const BlogPostTemplate = ({
-  content,
-  contentComponent,
-  description,
-  tags,
-  title,
-  helmet,
-}) => {
+export const BlogPostTemplate = ({content, contentComponent, description, tags, title, helmet}) => {
   const PostContent = contentComponent || Content
 
   return (
-    <section className="section">
+    <section className='section'>
       {helmet || ''}
-      <div className="container">
-        <div className="columns">
+      <div className='container'>
+        <div className='columns'>
           <Sidebar/>
-          <div className="content">
-            <div className="column2 is-10 is-offset-1">
-              <h1 className="title has-text-weight-bold is-bold-light">
-                {title}
-              </h1>
-              <p>{description}</p><br/>
+          <div className='content'>
+            <AdvertSetApp/>
+            <div className='column2 is-10 is-offset-1'>
+              <h1 className='title has-text-weight-bold is-bold-light'>{title}</h1>
+              <p>
+                {description}
+              </p>
+              <br/>
               <PostContent content={content} />
               {tags && tags.length ? (
-                <div style={{ marginTop: `4rem` }}>
-                  <h4>Tags</h4>
-                  <ul className="taglist">
-                    {tags.map(tag => (
-                        <Link to={`/tags/${kebabCase(tag)}/`} className="tagListOnPosts">{tag}</Link>
-                    ))}
-                  </ul>
-                </div>
-              ) : null}
+                 <div style={{ marginTop: `4rem` }}>
+                   <h4>Tags</h4>
+                   <ul className='taglist'>
+                     {tags.map(tag => (
+                        <Link to={`/tags/${kebabCase(tag)}/`} className='tagListOnPosts'>
+                        {tag}
+                        </Link>
+                      ))}
+                   </ul>
+                 </div>
+                 ) : null}
             </div>
           </div>
         </div>
@@ -54,7 +53,7 @@ BlogPostTemplate.propTypes = {
   contentComponent: PropTypes.func,
   description: PropTypes.string,
   title: PropTypes.string,
-  helmet: PropTypes.object,
+  helmet: PropTypes.object
 }
 
 const BlogPost = ({ data }) => {
@@ -66,17 +65,14 @@ const BlogPost = ({ data }) => {
         content={post.html}
         contentComponent={HTMLContent}
         description={post.frontmatter.description}
-        helmet={
-          <Helmet
-            titleTemplate="%s | Blog"
-          >
-            <title>{`${post.frontmatter.title}`}</title>
-            <meta name="description" content={`${post.frontmatter.description}`} />
-          </Helmet>
-        }
+        helmet={<Helmet titleTemplate="%s | Blog">
+                  <title>
+                    {`${post.frontmatter.title}`}
+                  </title>
+                  <meta name="description" content={`${post.frontmatter.description}`} />
+                </Helmet>}
         tags={post.frontmatter.tags}
-        title={post.frontmatter.title}
-      />
+        title={post.frontmatter.title} />
       <Footer/>
     </Layout>
   )
@@ -84,8 +80,8 @@ const BlogPost = ({ data }) => {
 
 BlogPost.propTypes = {
   data: PropTypes.shape({
-    markdownRemark: PropTypes.object,
-  }),
+    markdownRemark: PropTypes.object
+  })
 }
 
 export default BlogPost
