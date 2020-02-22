@@ -2,11 +2,12 @@
 templateKey: blog-post-swift
 slug: /speculid-asset-generator
 author: Peter Witham
-tags: ["Swift", "Assets", "Xcode", "Automation", "Productivity"]
+tags: ["Swift", "Assets", "Xcode", "Automation", "Productivity", "Video"]
 title: Xcode Asset Generation Automation with Speculid
 date: 2020-02-08T22:41:13
 blurb: Want an easy way to automatically re/build assets in Xcode? I have it right here for you.
 ---
+
 Learn how to automatically generate assets for Xcode using Speculid. With just a few steps you can be automating the build and rebuild of icons and images.
 
 This can be a massive time saver for those projects where assets can change just enough times to be annoying and ensure they are always up to date.
