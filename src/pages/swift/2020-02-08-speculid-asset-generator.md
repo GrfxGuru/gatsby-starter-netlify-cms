@@ -2,7 +2,7 @@
 templateKey: blog-post-swift
 slug: /speculid-asset-generator
 author: Peter Witham
-tags: ["Swift", "Assets", "Xcode", "Automation", "Productivity", "Video"]
+tags: ["Swift", "Assets", "Xcode", "Automation", "Productivity", "Videos"]
 title: Xcode Asset Generation Automation with Speculid
 date: 2020-02-08T22:41:13
 blurb: Want an easy way to automatically re/build assets in Xcode? I have it right here for you.
