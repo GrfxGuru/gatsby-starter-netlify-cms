@@ -100,12 +100,21 @@ $body-color: #333
   border-width: 2px
   border-color: rgb(166, 166, 166)
   border-style: solid
+  width: 100%;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  flex-wrap: wrap;
 
   .podcastPlayerIconList
     margin-top: 30px
     width: 100%
     display: grid
-    grid-template-columns: repeat(10, auto)
+    grid-template-columns: repeat(3, auto)
     justify-items: center
+
+.podcastPlayerIcon
+  text-align: center
+  padding-bottom: 40px
 
 @import "~bulma"
