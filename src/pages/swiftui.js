@@ -11,7 +11,7 @@ const SwiftUI = () => (
         <DetailsText>This on going video course shows each step to building an iPad application using SwiftUI.
           Along the way we will use different technologies to learn what we need to know to complete the features.</DetailsText>
       </DescriptionBox>
-      <a href="https://youtu.be/BAnkMenCq2o" target="_blank"><PreviewButton>Preview Video on YouTube</PreviewButton></a>
+      <a href="https://youtu.be/OQtiaRh-V4E" target="_blank"><PreviewButton>Preview Video on YouTube</PreviewButton></a>
       <DescriptionBox>
         <DetailsText>I value your privacy and the investments you make in your career. This course is on Patreon.com,
         a trusted online source that enables you to cancel your subscription at any time.
