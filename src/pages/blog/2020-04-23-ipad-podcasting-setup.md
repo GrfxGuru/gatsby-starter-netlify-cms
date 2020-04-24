@@ -8,6 +8,8 @@ date: 2020-04-23T22:46:59
 blurb: This week I turned my attention to my iPad for creating podcasts. Here are my conclusions and set-up.
 ---
 
+![Image of mic and ferrite software](/img/post_images/2020-04-23/mic-ferrite.jpg)
+
 I am always looking for new ways to do things and to try simplifying, this week I wanted to see if I really could use my iPad Pro to make some podcasts if I needed to.
 
 I tried many different set-ups when it comes to hardware. Not that there is anything wrong with the internal iPad microphone, but let’s be honest it’s all about sound quality and not picking up ambient noises how ever hard you try to be quiet.
