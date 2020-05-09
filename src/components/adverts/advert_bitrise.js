@@ -4,7 +4,7 @@ const AdvertBitrise = () => (
   <div style={{ textAlign: "center", marginBottom: 20 }}>
     <a href="https://pw.d.pr/yxRE7M" target="_blank" rel="nofollow">
       <img
-        src="/img/adverts/bitrise-banner-728x90.jpg"
+        src="https://peterwitham.com/img/adverts/bitrise-banner-728x90.jpg"
         alt="Bitrise Banner"
         width="728"
         height="90"
