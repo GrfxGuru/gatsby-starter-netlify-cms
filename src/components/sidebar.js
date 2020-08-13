@@ -15,6 +15,8 @@ import devToIcon from '../img/dev.svg'
 const Sidebar = () => (
   <div className='sidebar'>
     <Aboutbox/>
+      <BuyMeACoffee/>
+      <br/>
     <h2 class='sidebarWidget'>Navigation</h2>
     <a href={'/tags/swift'}><img src={swiftIcon} height='20px' width='18px' /> Swift Programming</a>
     <br/>
@@ -39,10 +41,6 @@ const Sidebar = () => (
     <a href={'https://twitch.tv/grfxg'} target='_blank' rel='noopener noreferrer'><img src={twitchIcon} width='20px' height='20px' /> Twitch.tv</a>
     <br/>
     <a href={'https://dev.to/peterwitham'} target='_blank' rel='noopener noreferrer'><img src={devToIcon} width='20px' height='20px' /> Dev.to</a>
-    <br/>
-    <br/>
-    <BuyMeACoffee/>
-    <StickerMule/>
   </div>
 )
 
