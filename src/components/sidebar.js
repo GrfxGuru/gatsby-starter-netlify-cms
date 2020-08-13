@@ -9,8 +9,9 @@ import githubIcon from '../img/github.svg'
 import mailIcon from '../img/mail.svg'
 import youtubeIcon from '../img/youtube-icon.svg'
 import twitchIcon from '../img/twitch-icon.svg'
-import StickerMule from './StickerMule'
+import docStackIcon from '../img/docstack-icon.svg'
 import devToIcon from '../img/dev.svg'
+import bagPlusIcon from '../img/bagplus-icon.svg'
 
 const Sidebar = () => (
   <div className='sidebar'>
@@ -22,9 +23,9 @@ const Sidebar = () => (
     <br/>
     <a href={'/podcasts'}><img src={tlcPodcastIcon} height='20px' width='20px' /> Listen to Podcasts</a>
     <br/>
-    <a href={'/tags/jam-stack'}>Learn JAMStack</a>
+    <a href={'/tags/jam-stack'}><img src={docStackIcon} height='20px' width='20px' /> Learn JAMStack</a>
     <br/>
-    <a href={'/resources/developer/'}>Developer Resources</a>
+    <a href={'/resources/developer/'}><img src={bagPlusIcon} height='20px' width='20px' /> Developer Resources</a>
     <br/>
     <br/>
     <h2 class='sidebarWidget'>Social</h2>
