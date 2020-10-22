@@ -1,3 +1,14 @@
+---
+templateKey: blog-post
+slug: /free-or-paid-content
+author: Peter Witham
+tags: ["Journal"]
+title: Considerations When Choosing Between Free or Paid Content
+date: 2020-10-22T01:39:00
+blurb: Content has value, but should you make it for free or charge? Some thoughts to help you decide.
+---
+
+
 I am always evaluating the way I deliver content. Eventually, the question turns to make it free or paid? A predicament that I have been working through for a couple of months now. I want to offer some tips to those of you that may be considering creating paid content, including how to decide if you should do it at all.
 
 ## Why consider charging for anything at all?
@@ -35,11 +46,11 @@ When it comes to software, you often see a free or lite version with features wi
 What it comes down to is a simple question to ask yourself, “What would I want to see to make me comfortable buying my product.”
 
 ## What are the best ways to start offering paid content?
-There are many options available. A lot will depend on the kind of content you are looking to make public. For me, I chose to go with [Patreon.com](#)(https://patreon.com). Content can be made available to different groups of customers and to set the price for each. It also makes things very simple as they handle everything for you, and all you have to do is create and upload the content.
+There are many options available. A lot will depend on the kind of content you are looking to make public. For me, I chose to go with [Patreon.com](https://patreon.com). Content can be made available to different groups of customers and to set the price for each. It also makes things very simple as they handle everything for you, and all you have to do is create and upload the content.
 
 The other benefit is that I am using a recognized and trusted service. Building your system is not a recommended way to start building customer confidence when first starting out.
 
-Another popular option is using a service like [gumroad.com](#)(https://gumroad.com). Again, you upload the content for users to purchase from the Gumroad site.
+Another popular option is using a service like [gumroad.com](https://gumroad.com). Again, you upload the content for users to purchase from the Gumroad site.
 
 ## Do Your Homework
 It would help if you considered looking at the ways other people are delivering content similar to yours.
@@ -56,4 +67,4 @@ I hope this article has given you some thoughts and helped send you down a path 
 
 I would love to hear what you decide to do and your thoughts.
 
-And finally, if this was helpful and valuable content, why not say thanks and [Buy me a Coffee](#)(https://buymeacoffee.com/pwcom)? I’d appreciate both the feedback and that coffee.
+And finally, if this was helpful and valuable content, why not say thanks and [Buy me a Coffee](https://buymeacoffee.com/pwcom)? I’d appreciate both the feedback and that coffee.
