@@ -89,7 +89,7 @@ OK that's the setup boring parts out the way, let's start coding our class file 
         }
 ```
 
-There is nothing amazing here just some simple methods to initialize the class, return and set the string variable, it should make sense to you by now, if not review [my swift posts](/swift/) to work through the basics of [functions](https://peterwitham.com/swift/basics/functions/). Let's try these functions out to ensure they work correctly, in _main.swift_ add the following after the constant we created.
+There is nothing amazing here just some simple methods to initialize the class, return and set the string variable, it should make sense to you by now, if not review [my swift posts](/swift/) to work through the basics of [functions](https://www.peterwitham.com/swift/basics/functions/). Let's try these functions out to ensure they work correctly, in _main.swift_ add the following after the constant we created.
 
 ```swift
     println(classInstance.showMyString())

@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-link: https://peterwitham.com/swift-archives/apple-watch-kit-released/
+link: https://www.peterwitham.com/swift-archives/apple-watch-kit-released/
 author: Peter Witham
 tags: ["Swift", "Apple", "watchOS"]
 title: Apple Watch Kit Released

@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post-swift
-link: https://peterwitham.com/swift-archives/vapor-3-released/
+link: https://www.peterwitham.com/swift-archives/vapor-3-released/
 author: Peter Witham
 tags: ["Swift"]
 title: Vapor 3 Released

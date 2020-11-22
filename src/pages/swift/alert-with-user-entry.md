@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post-swift
-link: https://peterwitham.com/swift-archives/intermediate/alert-with-user-entry/
+link: https://www.peterwitham.com/swift-archives/intermediate/alert-with-user-entry/
 author: Peter Witham
 slug: /swift-archives/intermediate/alert-with-user-entry/
 tags: ["Swift"]
@@ -9,7 +9,7 @@ date: 2015-01-06T07:30:12
 blurb: In this post I will show you how to display a text entry field in an alert to get input from the user and use that input back in the application.
 ---
 
-In my previous post titled ['Display an Alert or Action Sheet Using Swift in iOS 8'](https://peterwitham.com/swift/intermediate/display-an-alert/) I showed you how to create and display an alert using Swift and iOS 8. In this post I will take that a step further and show you how to display a text entry field in an alert to get input from the user and use that input back in the application. In this example we will simply take the entered text and change a label on the view, however these simple principles apply for using the data any way you wish.
+In my previous post titled ['Display an Alert or Action Sheet Using Swift in iOS 8'](https://www.peterwitham.com/swift/intermediate/display-an-alert/) I showed you how to create and display an alert using Swift and iOS 8. In this post I will take that a step further and show you how to display a text entry field in an alert to get input from the user and use that input back in the application. In this example we will simply take the entered text and change a label on the view, however these simple principles apply for using the data any way you wish.
 
 Let's get started.
 

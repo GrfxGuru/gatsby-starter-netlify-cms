@@ -25,7 +25,7 @@ class MyPet {
 
 For the Objective-C users out there notice that we do not have to specify a base class and we do not need to use header classes, this will either make you cry or cheer :)
 
-Now at the moment the class does absolutely nothing, it’s useless! To store data in our classes we use something called _properties_, these are really just variables inside the class. To brush up on [variables in Swift](http://www.peterwitham.com/basics/variables/) I suggest reading [my post](http://www.peterwitham.com/basics/variables/) on the subject.
+Now at the moment the class does absolutely nothing, it’s useless! To store data in our classes we use something called _properties_, these are really just variables inside the class. To brush up on [variables in Swift](https://www.peterwitham.com/basics/variables/) I suggest reading [my post](https://www.peterwitham.com/basics/variables/) on the subject.
 
 **_Adding a Property_**
 

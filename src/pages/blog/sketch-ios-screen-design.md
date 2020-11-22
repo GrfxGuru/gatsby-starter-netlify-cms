@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-link: https://peterwitham.com/development-notes/use-sketch-3-create-ios-screens-10-minutes/
+link: https://www.peterwitham.com/development-notes/use-sketch-3-create-ios-screens-10-minutes/
 author: Peter Witham
 slug: /development-notes/use-sketch-3-create-ios-screens-10-minutes/
 tags: ["Design", "Tutorials", "Videos"]

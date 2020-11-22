@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post-swift
-link: https://peterwitham.com/swift-archives/intermediate/accessing-files-stored-application-bundle-ios-swift/
+link: https://www.peterwitham.com/swift-archives/intermediate/accessing-files-stored-application-bundle-ios-swift/
 author: Peter Witham
 tags: ["Swift"]
 title: Accessing Files stored in Application Bundle on iOS with Swift

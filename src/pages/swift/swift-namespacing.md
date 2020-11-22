@@ -13,12 +13,12 @@ Name spaces are a way to group items together without fear of them treading on t
 ``` swift
 enum myDetails {
     static let Name = "Peter Witham"
-    static let WebSite = "https://peterwitham.com"
+    static let WebSite = "https://www.peterwitham.com"
     static let Twitter = “@compileswift”
 }
 
 myDetails.Name     // Peter Witham
-myDetails.WebSite // https://peterwitham.com
+myDetails.WebSite // https://www.peterwitham.com
 myDetails.Twitter   // @compileswift
 ```
 
@@ -27,7 +27,7 @@ Now because I used an _enum_ here, you cannot instantiate it, unlike a _struct_.
 ``` swift
 enum myDetails {
     static let Name = "Peter Witham"
-    static let WebSite = "https://peterwitham.com"
+    static let WebSite = "https://www.peterwitham.com"
     static let Twitter = "@compileswift"
     enum Location {
         static let State = "Texas"

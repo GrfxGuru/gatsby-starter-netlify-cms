@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post-swift
-link: https://peterwitham.com/development-notes/ios-view-editing-with-sherlock-by-inspired-code/
+link: https://www.peterwitham.com/development-notes/ios-view-editing-with-sherlock-by-inspired-code/
 author: Peter Witham
 slug: /development-notes/ios-view-editing-with-sherlock-by-inspired-code/
 tags: ["Swift", "Design", "Tutorials", "Videos"]

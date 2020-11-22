@@ -22,7 +22,7 @@ Time for a code example. I’ll use Swift, but this idea can be used with any pr
 
 ```swift
 struct AppConfiguration {
-    public static let webSiteURL: String = "https://peterwitham.com"
+    public static let webSiteURL: String = "https://www.peterwitham.com"
     public static let blogURL: String = webSiteURL + "/blog"
     public static let contactURL: String = webSiteURL + "/contact"
 }
@@ -35,9 +35,9 @@ I’ll break the code down for those that might not be familiar with Swift (I ha
 Time to use the configuration items. For the sake of simplicity in this tutorial, I am using a Swift playground and will simply print out the items.
 
 ```swift
-print(webSiteURL) // displays: https://peterwitham.com
-print(blogURL) // displays: https://peterwitham.com/blog
-print(contactURL) // displays: https://peterwitham.com/contact
+print(webSiteURL) // displays: https://www.peterwitham.com
+print(blogURL) // displays: https://www.peterwitham.com/blog
+print(contactURL) // displays: https://www.peterwitham.com/contact
 ```
 
 OK, nothing too amazing here. But let’s assume these URLs are used in a whole bunch of places through our application code. What if I now change domains, I need to update all the URLs in the application. Well, thanks to the configuration system, that is a one line change. I simply open my configuration struct file and change the base URL.

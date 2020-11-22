@@ -18,7 +18,7 @@ Xcode ships with Swift, but you are not limited to just that version. In fact, y
 
 2. You will see a table with a version for Xcode and Ubuntu. Click on ‘Xcode’, be sure to NOT click on ‘Debugging Symbols’ as that is a different file.
 
-![](https://peterwitham.com/wp-content/uploads/2016/05/Swift.org-Download-Swift-2.jpeg)
+![](https://www.peterwitham.com/wp-content/uploads/2016/05/Swift.org-Download-Swift-2.jpeg)
 
 3. Once downloaded run the installer.
 4. Installer completed and you are ready to switch to Xcode.

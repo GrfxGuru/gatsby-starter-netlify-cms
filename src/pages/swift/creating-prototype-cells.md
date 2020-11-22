@@ -138,7 +138,7 @@ override func viewDidLoad() {
     tableData = [
         MyData(firstRowLabel: "The first row", secondRowLabel: "Hello"),
         MyData(firstRowLabel: "The second row", secondRowLabel: "There"),
-        MyData(firstRowLabel: "Third and final row", secondRowLabel: "https://peterwitham.com")
+        MyData(firstRowLabel: "Third and final row", secondRowLabel: "https://www.peterwitham.com")
     ]
 }
 ```

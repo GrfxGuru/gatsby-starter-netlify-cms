@@ -50,6 +50,6 @@ I have been a die hard photographer both amateur and professional since my teena
 
 My goal is to return to this passion and rededicate myself to creating new works and re-entering the communities that I was such an active participant in.
 
-If you are interested, you can find my Photography at [https://peterwitham.com/photography](https://peterwitham.com/photography)
+If you are interested, you can find my Photography at [https://www.peterwitham.com/photography](https://www.peterwitham.com/photography)
 
 So this is my initial thoughts for the next few months of planning. Fingers crossed!

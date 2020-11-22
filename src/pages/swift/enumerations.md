@@ -145,7 +145,7 @@ Where as associated values let you specify the value outside of the enumeration,
 ``` swift
     enum AnotherEnum  : String {
         case Name = "Peter"
-        case WebSite = "https://peterwitham.com"
+        case WebSite = "https://www.peterwitham.com"
     }
 
     var myName = AnotherEnum.Name
@@ -154,7 +154,7 @@ Where as associated values let you specify the value outside of the enumeration,
 
     // Now let's access those values using the handy .Raw()
     myName.toRaw() // Outputs "Peter"
-    myWebsite.toRaw() // Outputs "https://peterwitham.com"
+    myWebsite.toRaw() // Outputs "https://www.peterwitham.com"
 ```
 
 But what if a variable has no value? We should handle this in the appropriate way that by now I think as a Swift coder you are getting used to _optionals_ (see [my post on Optionals](/swift/intermediate/optionals/). Your homework is to figure out how you might deal with this situation, I have to give you something to take away and try right!

@@ -10,7 +10,7 @@ blurb: I love the Setapp subscription service on my Mac and iOS devices. You bet
 Please note this post contains an affiliate link.
 
 <a href="https://go.setapp.com/invite/f8627428-ba2a-4c15-8976-3b78f218ce2b" target="_blank">
-<img src="https://peterwitham.com/img/post_images/setapp-post/dashboard-screen.jpg" width="900">
+<img src="https://www.peterwitham.com/img/post_images/setapp-post/dashboard-screen.jpg" width="900">
 </a>
 
 <a href="https://go.setapp.com/invite/f8627428-ba2a-4c15-8976-3b78f218ce2b" target="_blank">
@@ -29,7 +29,7 @@ There is a wonderfully diverse collection of applications, from productivity to 
 
 This screen capture shows the tools I currently have installed and use regularly.
 
-<img src="https://peterwitham.com/img/post_images/setapp-post/installed-apps.jpg" width="900">
+<img src="https://www.peterwitham.com/img/post_images/setapp-post/installed-apps.jpg" width="900">
 
 ## Wondering what some of them are?
 ### Ulysses
