@@ -5,7 +5,7 @@ author: Peter Witham
 tags: ["CompileSwift", "Tutorials", "Videos"]
 title: Easily Create Asset Icons for Xcode Apps
 date: 2020-12-06T23:33:25
-blurb: 
+blurb: Generate Xcode assets quickly and accurately using this tool, a few minutes with this video could save you a bunch of time trying to do it manually.
 ---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CcDwMNQ9YG4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
