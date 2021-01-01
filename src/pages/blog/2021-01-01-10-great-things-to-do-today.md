@@ -8,6 +8,8 @@ date: 2021-01-01T15:30:52
 blurb: The new year is a great time for quick clean up and set up for a better 2021. Here are a few suggestions.
 ---
 
+![](/img/2021-01-01/fi.png)
+
 New year is not just about those resolutions that you might keep, it’s a great time to do things to make the year start the way you want it to. Here are a few ideas to help you get started.
 
 - Back up everything
