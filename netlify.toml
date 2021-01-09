@@ -1,9 +1,10 @@
 [build]
   publish = "public"
-  command = "CI= npm run build"
+  command = "npm run build"
 [build.environment]
   YARN_VERSION = "1.9.4"
   YARN_FLAGS = "--no-ignore-optional"
+  NODE_VERSION = 10
   NODE_OPTIONS = "--max_old_space_size=4096"
 [[plugins]]
   package = "netlify-plugin-gatsby-cache"
