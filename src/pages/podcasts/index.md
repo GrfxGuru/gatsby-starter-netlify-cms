@@ -26,13 +26,6 @@ I have been a big fan of Podcasts for the longest time, it was inevitable that I
 <p>Discussing Apple Swift and Apple platform development.</p>
 </div>
 <div style="width: 200px; max-width: 200px; padding: 10px;">
-<a href="https://anchor.fm/gamecode" target="_blank">
-<img src="../../img/podcast_icon_ggc.svg" width="200" height="200"/>
-</a>
-<h5 style="height: 30px;">Geezers Who Game & Code</h5>
-<p>Talking Playing and making games. Plus anything else game related.</p>
-</div>
-<div style="width: 200px; max-width: 200px; padding: 10px;">
 <a href="https://www.empowerapps.show/29" target="_blank">
 <img src="../../img/podcast_icon_generic.svg" width="200" height="200"/>
 </a>
