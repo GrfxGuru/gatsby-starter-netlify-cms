@@ -1,120 +1,129 @@
 // Config vars
-$pw-red: rgb(255,0,0)
-$pw-red-invert: #fff
+$pw-red: rgb(255,0,0);
+$pw-red-invert: rgb(255, 255, 255);
 
-$body-background: #570F0F
+$body-background: #570F0F;
 
-$primary: $pw-red
-$primary-invert: $pw-red-invert
-$body-color: #333
+$primary: $pw-red;
+$primary-invert: $pw-red-invert;
+$body-color: #333;
 
-@import "../sass/header"
-@import "../sass/post-types"
-@import "../sass/sidebar"
-@import "../sass/helpers"
-@import "../sass/navigation"
-@import "../sass/cards"
-@import "../sass/taglist"
-@import "../sass/footer"
-@import "../sass/searchbox"
+@import "../sass/header";
+@import "../sass/post-types";
+@import "../sass/sidebar";
+@import "../sass/helpers";
+@import "../sass/navigation";
+@import "../sass/cards";
+@import "../sass/taglist";
+@import "../sass/footer";
+@import "../sass/searchbox";
 
-.siteName
-  font-size: 2em
-  font-weight: bolder
-  color: $primary-invert
-  margin-left: 10px
+.siteName {
+  font-size: 2em;
+  font-weight: bolder;
+  color: $primary-invert;
+  margin-left: 10px;
+}
+.pwArrowBackground {
+  background-image: url("../img/PW-Arrow.svg");
+  position: absolute;
+  top: 60px;
+  left: -165px;
+  width: 400px;
+  height: 400px;
+}
+.content {
+  border: none !important;
+  font-size: 1.1em;
+  padding: 0 0 80px 60px !important;
+  max-width: 70%;
+}
+.contactContent {
+  border: none !important;
+  font-size: 1.1em;
+  padding: 0 0 80px 60px !important;
+  max-width: 70%;
+  width: 100%;
+  margin: 0 auto;
 
-.pwArrowBackground
-  background-image: url("../img/PW-Arrow.svg")
-  position: absolute
-  top: 60px
-  left: -165px
-  width: 400px
-  height: 400px
+  h1 {
+    font-size: 1.9em;
+    font-weight: bold;
+    padding-bottom: 5px;
+    }
+}
+.contentindex {
+  border: none !important;
+  font-size: 1.1em;
+  padding: 0 0 80px 60px !important;
+  max-width: 100%;
+}
+.content .has-text-primary {
+  font-weight: bold;
+  font-size: 1.7em;
+}
+.contentindex .has-text-primary {
+  font-weight: bold;
+  font-size: 1.7em;
+}
 
-.content
-  border: none !important
-  font-size: 1.1em
-  padding: 0 0 80px 60px !important
-  max-width: 70%
-
-.contactContent
-  border: none !important
-  font-size: 1.1em
-  padding: 0 0 80px 60px !important
-  max-width: 70%
-  width: 100%
-  margin: 0 auto
-
-  h1
-    font-size: 1.9em
-    font-weight: bold
-    padding-bottom: 5px
-
-.contentindex
-  border: none !important
-  font-size: 1.1em
-  padding: 0 0 80px 60px !important
-  max-width: 100%
-
-.content .has-text-primary
-  font-weight: bold
-  font-size: 1.7em
-
-.contentindex .has-text-primary
-  font-weight: bold
-  font-size: 1.7em
+.indexBlogPostTitle {
+  font-weight: bold;
+  font-size: 30px;
+  text-transform: uppercase;
+  text-align: center;
+  color: rgb(201, 201, 201);
+  margin-bottom: 30px;
+ }
 
 
-.indexBlogPostTitle
-  font-weight: bold
-  font-size: 30px
-  text-transform: uppercase
-  text-align: center
-  color: rgb(201, 201, 201)
-  margin-bottom: 30px
+@media (max-width: 780px) {
 
+  .pwArrowBackground {
+    visibility: hidden;
+  }
 
-@media (max-width: 780px)
+  .section {
+    padding: 10px 15px 0 15px !important;
+  }
 
-  .pwArrowBackground
-    visibility: hidden
+  .content {
+    padding: 10px 5px 0 5px !important;
+    max-width: 80%;
+  }
 
-  .section
-    padding: 10px 15px 0 15px !important
-
-  .content
-    padding: 10px 5px 0 5px !important
-    max-width: 80%
-
-    p
-      font-size: 0.7em !important
+    p {
+      font-size: 0.7em !important;
+    }
+}
 
 // --------------------------------- Tables
-.podcastPlayersLinkTable
-  width: 100%
-  margin: 30px auto
-  background-color: rgba(255, 255, 255, 1)
-  padding: 20px 20px 10px 20px
-  border-radius: 20px
-  border-width: 2px
-  border-color: rgb(166, 166, 166)
-  border-style: solid
+.podcastPlayersLinkTable {
+  width: 100%;
+  margin: 30px auto;
+  background-color: rgba(255, 255, 255, 1);
+  padding: 20px 20px 10px 20px;
+  border-radius: 20px;
+  border-width: 2px;
+  border-color: rgb(166, 166, 166);
+  border-style: solid;
   width: 100%;
   display: flex;
   flex-flow: row;
   justify-content: center;
   flex-wrap: wrap;
+}
+  .podcastPlayerIconList {
+    margin-top: 30px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-items: center;
+  }
 
-  .podcastPlayerIconList
-    margin-top: 30px
-    width: 100%
-    display: grid
-    grid-template-columns: repeat(3, auto)
-    justify-items: center
-
-.podcastPlayerIcon
-  text-align: center
-  padding-bottom: 40px
+.podcastPlayerIcon {
+  text-align: center;
+  padding-bottom: 40px;
+}
 
 @import "~bulma"
