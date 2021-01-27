@@ -14,7 +14,6 @@ Here is the list, given the nature of the way some platforms work they may becom
 
 Twitter
 - GGCPod
-- GrfxMedia
 - CashOnTapGame
 
 Twitch.tv (channels made unavailable since you cannot delete them)
