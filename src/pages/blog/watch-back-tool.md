@@ -1,10 +1,10 @@
 ---
-templateKey: blog-post
-slug: /watch-back-placement-tool
-author: Peter Witham
+templateKey: blog-post 
+slug: /watch-back-placement-tool 
+author: Peter Witham 
 tags: ["Journal”]
-title: This tool saved me hours of frustration trying to reattach my watch back after replacing the battery
-date: 2022-04-16T02:30:00
+title: This tool saved me hours of frustration trying to reattach my watch back after replacing the battery 
+date: 2022-04-16T02:30:00 
 blurb: I love my watches, but dread replacing the batteries because popping those watch backs into place is a nightmare of frustration. Until now.
 ---
 
