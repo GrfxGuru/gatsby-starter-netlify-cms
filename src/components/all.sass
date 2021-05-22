@@ -18,27 +18,27 @@ $body-color: #333;
 @import "../sass/footer";
 @import "../sass/searchbox";
 
-.siteName 
+.siteName {
   font-size: 2em;
   font-weight: bolder;
   color: $primary-invert;
   margin-left: 10px;
-
-.pwArrowBackground 
+}
+.pwArrowBackground {
   background-image: url("../img/PW-Arrow.svg");
   position: absolute;
   top: 60px;
   left: -165px;
   width: 400px;
   height: 400px;
-
-.content 
+}
+.content {
   border: none !important;
   font-size: 1.1em;
   padding: 0 0 80px 60px !important;
   max-width: 70%;
-
-.contactContent 
+}
+.contactContent {
   border: none !important;
   font-size: 1.1em;
   padding: 0 0 80px 60px !important;
@@ -46,56 +46,59 @@ $body-color: #333;
   width: 100%;
   margin: 0 auto;
 
-h1 
-  font-size: 1.9em;
-  font-weight: bold;
-  padding-bottom: 5px;
-
-.contentindex 
+  h1 {
+    font-size: 1.9em;
+    font-weight: bold;
+    padding-bottom: 5px;
+    }
+}
+.contentindex {
   border: none !important;
   font-size: 1.1em;
   padding: 0 0 80px 60px !important;
   max-width: 100%;
-
-.content .has-text-primary 
+}
+.content .has-text-primary {
   font-weight: bold;
   font-size: 1.7em;
-
-.contentindex .has-text-primary 
+}
+.contentindex .has-text-primary {
   font-weight: bold;
   font-size: 1.7em;
+}
 
-
-.indexBlogPostTitle 
+.indexBlogPostTitle {
   font-weight: bold;
   font-size: 30px;
   text-transform: uppercase;
   text-align: center;
   color: rgb(201, 201, 201);
   margin-bottom: 30px;
- 
-@media (max-width: 780px) 
+ }
 
-  .pwArrowBackground 
+
+@media (max-width: 780px) {
+
+  .pwArrowBackground {
     visibility: hidden;
-  
+  }
 
-  .section 
+  .section {
     padding: 10px 15px 0 15px !important;
-  
+  }
 
-  .content 
+  .content {
     padding: 10px 5px 0 5px !important;
     max-width: 80%;
-  
+  }
 
-    p 
+    p {
       font-size: 0.7em !important;
-    
-
+    }
+}
 
 // --------------------------------- Tables
-.podcastPlayersLinkTable 
+.podcastPlayersLinkTable {
   width: 100%;
   margin: 30px auto;
   background-color: rgba(255, 255, 255, 1);
@@ -109,18 +112,18 @@ h1
   flex-flow: row;
   justify-content: center;
   flex-wrap: wrap;
-
-  .podcastPlayerIconList 
+}
+  .podcastPlayerIconList {
     margin-top: 30px;
     width: 100%;
     display: grid;
     grid-template-columns: repeat(3, auto);
     justify-items: center;
-  
+  }
 
-.podcastPlayerIcon 
+.podcastPlayerIcon {
   text-align: center;
   padding-bottom: 40px;
-
+}
 
 @import "~bulma"
